@@ -1,5 +1,5 @@
-# _config.yml
-remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
-
-# _config.yml
-force_theme: light
+title: "My GitHub Pages Site"
+description: "A simple site deployed with GitHub Pages and GitHub Actions"
+baseurl: "" # Keep this blank for GitHub Pages root
+url: "https://Columbia-DAP-Lab.github.io" # Update with your actual GitHub Pages URL
+theme: minima # Default theme, or replace with your theme
