@@ -1,0 +1,5 @@
+# _config.yml
+remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
+
+# _config.yml
+force_theme: light
