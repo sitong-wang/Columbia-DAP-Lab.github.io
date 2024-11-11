@@ -11,9 +11,10 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 Faculty
 
 Members
-[Adam Elmachtoub](https://example.com), IEOR, pricing, and market design.  NSF CAREER, IBM faculty award, Forbes 30 under 30
 
-[Baishakhi Ray](https://example.com), CS, Software Engineering, Neurosymbolic learning.   NSF CAREER, VMWare, and IBM faculty awards, IEEE CS TCSE Rising Star Award.
+[Adam Elmachtoub](https://example.com](https://www.columbia.edu/~ae2516/), IEOR, pricing, and market design.  NSF CAREER, IBM faculty award, Forbes 30 under 30
+
+[Baishakhi Ray](http://rayb.info), CS, Software Engineering, Neurosymbolic learning.   NSF CAREER, VMWare, and IBM faculty awards, IEEE CS TCSE Rising Star Award.
 
 [Lydia Chilton](https://example.com), CS, Human-Centered AI.  Facebook, Adobe, and Amazon awards.
 
