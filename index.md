@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1>Data, Agents and Process Lab (DAPLab)</h1>
+
 Agents have the potential to transform how humans, companies, and economies function, yet also introduce systemic risks at every level of technology and society.
 
 The goal of the DAPLab is to pursue research to make agent-based automation accountable, reliable, and efficient, and thus trusted within organizations.
