@@ -12,30 +12,30 @@ Faculty
 
 Members
 
-[Adam Elmachtoub](https://example.com](https://www.columbia.edu/~ae2516/), IEOR, pricing, and market design.  NSF CAREER, IBM faculty award, Forbes 30 under 30
+[Adam Elmachtoub](https://www.columbia.edu/~ae2516/), IEOR, pricing, and market design.  NSF CAREER, IBM faculty award, Forbes 30 under 30
 
 [Baishakhi Ray](http://rayb.info), CS, Software Engineering, Neurosymbolic learning.   NSF CAREER, VMWare, and IBM faculty awards, IEEE CS TCSE Rising Star Award.
 
-[Lydia Chilton](https://example.com), CS, Human-Centered AI.  Facebook, Adobe, and Amazon awards.
+[Lydia Chilton](https://www.cs.columbia.edu/~chilton/chilton.html), CS, Human-Centered AI.  Facebook, Adobe, and Amazon awards.
 
-[Zhou Yu](https://example.com), CS, NLP.   Alexa prize winner, Forbes 30 under 30.
+[Zhou Yu](https://www.cs.columbia.edu/~zhouyu/), CS, NLP.   Alexa prize winner, Forbes 30 under 30.
 
-[Kostis Kaffes](https://example.com), CS, Systems.  Meta Research Award, former Google Visiting Faculty.
+[Kostis Kaffes](https://www.cs.columbia.edu/~kkaffes/index.html), CS, Systems.  Meta Research Award, former Google Visiting Faculty.
 
-[Junfeng Yang](https://example.com), CS, Systems, Security.  Sloan fellow, Air Force YIP awardee, NSF CAREER.
+[Junfeng Yang](https://www.cs.columbia.edu/~junfeng/), CS, Systems, Security.  Sloan fellow, Air Force YIP awardee, NSF CAREER.
 
-[Eugene Wu](https://example.com), CS, Data management.  NSF CAREER, VLDB 2018 Test-of-time, Google, Adobe, Amazon awards.
+[Eugene Wu](https://eugenewu.net), CS, Data management.  NSF CAREER, VLDB 2018 Test-of-time, Google, Adobe, Amazon awards.
 
-[Shipra Agrawal](https://example.com), IEOR, Reinforcement learning.  Proved first optimality bounds of Thompson’s sampling (core algorithm in RL). NSF CAREER.
+[Shipra Agrawal](http://columbia.edu/~sa3305), IEOR, Reinforcement learning.  Proved first optimality bounds of Thompson’s sampling (core algorithm in RL). NSF CAREER.
 
-[Daniel Hsu](https://example.com), CS, Machine Learning Theory.   Sloan fellow and AI’s 10 to Watch in 2015.  Co-chair of ICML 2025
+[Daniel Hsu](https://www.cs.columbia.edu/~djhsu/), CS, Machine Learning Theory.   Sloan fellow and AI’s 10 to Watch in 2015.  Co-chair of ICML 2025
 
 [Carl Vondrick](https://example.com), CS, Computer vision.  PAMI Young Researcher Awardee, NSF CAREER.  Senior program chair for ICLR 2025.
 
-[Yunzhu Li](https://example.com), CS, Robotics and agents.  Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.
+[Yunzhu Li](https://www.cs.columbia.edu/~vondrick/), CS, Robotics and agents.  Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.
 
 Advisory Board
 
-[Richard Zemel](https://example.com), CS, AI.  Director NSF AI Institute for ARtificial and Natural Intelligence
+[Richard Zemel](https://www.cs.columbia.edu/~zemel/), CS, AI.  Director NSF AI Institute for ARtificial and Natural Intelligence
 
-[Michael Franklin](https://example.com), CS, UChicago. Founder of Berkeley’s AMPLab.
+[Michael Franklin](https://cs.uchicago.edu/people/michael-franklin/), CS, UChicago. Founder of Berkeley’s AMPLab.
