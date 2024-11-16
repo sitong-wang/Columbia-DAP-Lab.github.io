@@ -1,5 +1,5 @@
 title: "Columbia DAP Lab"
 description: ""
 baseurl: "" # Keep this blank for GitHub Pages root
-url: "https://columbia-dap-lab.github.io/Columbia-DAP-Lab/" # Update with your actual GitHub Pages URL
+url: "https://columbia-dap-lab.github.io/" # Update with your actual GitHub Pages URL
 theme: minima # Default theme, or replace with your theme
