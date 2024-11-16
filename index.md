@@ -34,7 +34,10 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 
 <a href="https://example.com" target="_blank" rel="noopener noreferrer">Carl Vondrick</a>, CS, Computer vision. PAMI Young Researcher Awardee, NSF CAREER. Senior program chair for ICLR 2025.<br>
 
-<a href="https://www.cs.columbia.edu/~vondrick/" target="_blank" rel="noopener noreferrer">Yunzhu Li</a>, CS, Robotics and agents. Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.<br>
+<a href="[https://www.cs.columbia.edu/~vondrick/](https://yunzhuli.github.io/)" target="_blank" rel="noopener noreferrer">Yunzhu Li</a>, CS, Robotics and agents. Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.<br>
+
+<a href="https://www.cs.columbia.edu/~blei/" target="_blank" rel="noopener noreferrer">David Blei</a>, CS and Statistics, Machine Learning. Inventor of Latent dirichlet allocation (LDA).<br>
+
 
 
 
