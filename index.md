@@ -18,9 +18,12 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 
 <a href="http://rayb.info" target="_blank" rel="noopener noreferrer">Baishakhi Ray</a>, CS, Software Engineering, Neurosymbolic learning. NSF CAREER, VMWare, and IBM faculty awards, IEEE CS TCSE Rising Star Award.<br>
 
+[Richard Zemel](https://www.cs.columbia.edu/~zemel/), CS, ML. NVIDIA Pioneer of AI Award, ICML 10-year test of time award, Canadian AI Lifetime Achievement Award.  Past chair of NeurIPS, FAccT conferences. Co-Founder & Research Director Vector Institute for AI, Director [NSF AI Institute for ARtificial and Natural Intelligence](https://arni-institute.org/)
+
+
 <a href="https://www.cs.columbia.edu/~chilton/chilton.html" target="_blank" rel="noopener noreferrer">Lydia Chilton</a>, CS, Human-Centered AI. Facebook, Adobe, and Amazon awards.<br>
 
-<a href="https://www.cs.columbia.edu/~zhouyu/" target="_blank" rel="noopener noreferrer">Zhou Yu</a>, CS, NLP. Alexa prize winner, Forbes 30 under 30.<br><br>
+<a href="https://www.cs.columbia.edu/~zhouyu/" target="_blank" rel="noopener noreferrer">Zhou Yu</a>, CS, NLP. Alexa prize winner, Forbes 30 under 30.<br>
 
 <a href="https://www.cs.columbia.edu/~kkaffes/index.html" target="_blank" rel="noopener noreferrer">Kostis Kaffes</a>, CS, Systems. Meta Research Award, former Google Visiting Faculty.<br>
 
