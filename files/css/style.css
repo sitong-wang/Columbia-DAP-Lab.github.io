@@ -1,0 +1,34 @@
+.container {
+  max-width: 1000px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: .75em;
+}
+
+
+.callout-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.callout {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: 3px;
+  border: 1px solid #00206A;
+  color: #333;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.callout:hover {
+  background-color: #00206A;
+  color: white;
+  text-decoration: none;
+}

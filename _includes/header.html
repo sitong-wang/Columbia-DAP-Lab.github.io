@@ -1,0 +1,33 @@
+<header class="site-header" style="margin-bottom: 1em; border-bottom: 1px solid #00206A;">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+              <img src="{{ '/files/daplab logo.png' | relative_url }}" alt="DAPLab Logo" style="height: 50px; margin-right: 10px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.eventbrite.com/e/nyc-agents-workshop-agents-for-work-tickets-1207855581559">March Workshop</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ '/people' | relative_url }}">People</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ '/partners' | relative_url }}">Partners</a>
+                </li>
+              -->
+              </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+</header>
