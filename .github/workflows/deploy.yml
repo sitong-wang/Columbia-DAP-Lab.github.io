@@ -1,0 +1,39 @@
+
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to match your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use a GitHub-hosted runner
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.4'  # Specify the required Ruby version
+          bundler-cache: true  # Cache dependencies
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build  # Modify if using a different static site generator
+
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v1  # Upload generated site for deployment
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy site
+        uses: actions/deploy-pages@v1
