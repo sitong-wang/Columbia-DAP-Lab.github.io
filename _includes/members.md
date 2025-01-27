@@ -6,7 +6,7 @@
 
 [Richard Zemel](https://www.cs.columbia.edu/~zemel/), CS, ML. <span style="color: #666666;">NVIDIA Pioneer of AI Award, ICML 10-year test of time award, Canadian AI Lifetime Achievement Award.  Past chair of NeurIPS, FAccT conferences. Co-Founder & Research Director Vector Institute for AI, Director [NSF AI Institute for ARtificial and Natural Intelligence](https://arni-institute.org/)</span>
 
-<a href="https://example.com" target="_blank" rel="noopener noreferrer">Carl Vondrick</a>, CS, Computer vision. <span style="color: #666666;">PAMI Young Researcher Awardee, NSF CAREER.  Senior program chair for ICLR 2025, the top ML and AI conference along with NeurIPS and ICML.</span><br>
+<a href="https://cs.columbia.edu/~vondrick" target="_blank" rel="noopener noreferrer">Carl Vondrick</a>, CS, Computer vision. <span style="color: #666666;">PAMI Young Researcher Awardee, NSF CAREER.  Senior program chair for ICLR 2025, the top ML and AI conference along with NeurIPS and ICML.</span><br>
 
 <a href="https://yunzhuli.github.io/" target="_blank" rel="noopener noreferrer">Yunzhu Li</a>, CS, Robotics and agents. <span style="color: #666666;">World leader in developing embodied AI agents for real-world robotics. Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.</span><br>
 
