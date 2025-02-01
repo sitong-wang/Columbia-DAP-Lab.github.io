@@ -32,7 +32,7 @@ jobs:
         run: bundle exec jekyll build  # Modify if using a different static site generator
 
       - name: Deploy to GitHub Pages
-        uses: actions/upload-pages-artifact@v4  # Upload generated site for deployment
+        uses: actions/upload-pages-artifact@v1  # Upload generated site for deployment
 
   deploy:
     needs: build
