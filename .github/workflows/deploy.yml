@@ -1,3 +1,4 @@
+
 name: Deploy GitHub Pages
 
 on:
@@ -30,6 +31,8 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build  # Modify if using a different static site generator
 
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v4  # Upload generated site for deployment
 
   deploy:
     needs: build
@@ -38,11 +41,5 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4  # Updated to v4
-        with:
-          name: github-pages
-          path: _site
-
       - name: Deploy site
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
