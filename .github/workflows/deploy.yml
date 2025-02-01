@@ -1,3 +1,4 @@
+
 name: Deploy GitHub Pages
 
 on:
@@ -5,6 +6,7 @@ on:
     branches:
       - main  # Adjust this to match your default branch
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -12,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use a GitHub-hosted runner
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,20 +22,17 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.4'
-          bundler-cache: true
+          ruby-version: '3.1.4'  # Specify the required Ruby version
+          bundler-cache: true  # Cache dependencies
 
       - name: Install dependencies
         run: bundle install
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build  # Modify if using a different static site generator
 
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4  # ✅ Ensure this is v4
-        with:
-          name: github-pages
-          path: _site  # Ensure this is the correct site output directory
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v1  # Upload generated site for deployment
 
   deploy:
     needs: build
@@ -42,11 +41,5 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4  # ✅ Ensuring artifact is downloaded before deploying
-        with:
-          name: github-pages
-          path: _site  # Must match the upload path in the build job
-
       - name: Deploy site
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
