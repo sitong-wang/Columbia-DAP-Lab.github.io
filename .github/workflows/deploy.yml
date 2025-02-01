@@ -22,7 +22,7 @@ jobs:
         uses: awalsh128/cache-apt-pkgs-action@v1.4.3
         with:
           packages: "build-essential libssl-dev libffi-dev"  # Add required APT packages
-          version: 1  # Change this number to force a cache refresh if needed
+          version: 2  # Change this number to force a cache refresh if needed
 
 
       - name: Setup Ruby
