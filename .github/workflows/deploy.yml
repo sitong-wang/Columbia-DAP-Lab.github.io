@@ -30,11 +30,6 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build  # Modify if using a different static site generator
 
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4  # Updated to v4
-        with:
-          name: github-pages
-          path: _site  # Ensure this is the correct output directory for your site
 
   deploy:
     needs: build
