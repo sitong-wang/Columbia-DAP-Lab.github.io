@@ -49,11 +49,12 @@
 
 .event-detail h3 {
     margin-bottom: 20px;
+    color: #005BBF;
 }
 
-.event-detail h3 a {
-    color: #555;
-}
+/* .event-detail h3 a {
+    color: #005BBF;
+} */
 
 .event-detail .img-fluid {
     border-radius: 5px;
@@ -62,6 +63,6 @@
 .event-detail h4 {
     margin-bottom: 0px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.2rem;
     color: #666;
 }
