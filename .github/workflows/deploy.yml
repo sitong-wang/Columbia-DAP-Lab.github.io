@@ -1,3 +1,4 @@
+
 name: Deploy GitHub Pages
 
 on:
@@ -13,37 +14,25 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use a GitHub-hosted runner
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache APT packages
-        uses: awalsh128/cache-apt-pkgs-action@v1.4.3
-        with:
-          packages: "build-essential libssl-dev libffi-dev"  # Add required APT packages
-          version: 2  # Change this number to force a cache refresh if needed
-
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.4'
-          bundler-cache: true
+          ruby-version: '3.1.4'  # Specify the required Ruby version
+          bundler-cache: true  # Cache dependencies
 
       - name: Install dependencies
         run: bundle install
 
       - name: Build site
-        run: bundle exec jekyll build  # This generates the _site directory
+        run: bundle exec jekyll build  # Modify if using a different static site generator
 
-      - name: Debug - List built files
-        run: ls -R _site  # Ensure the site is built before uploading
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1  # Correct action for GitHub Pages
-        with:
-          path: _site  # Ensure this is the correct output directory
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v1  # Upload generated site for deployment
 
   deploy:
     needs: build
@@ -53,4 +42,5 @@ jobs:
       id-token: write
     steps:
       - name: Deploy site
-        uses: actions/deploy-pages@v1  # This correctly deploys the site
+        uses: actions/deploy-pages@v1
+
