@@ -11,7 +11,7 @@ The goal of the DAPLab is to pursue research to make agent-based automation acco
 The lab pursues this vision by combining expertise across systems (OS, data, cloud), AI (ML, RL, NLP, computer vision, robotics), human-computer interaction, and operations research.
 
 
-## 3/12 Workshop
+## 3/12 Invitation-only Workshop
 
 <div class="callout-container">
 <a class="callout" href="https://www.eventbrite.com/e/nyc-agents-workshop-agents-for-work-tickets-1207855581559?aff=oddtdtcreator">Register for the Invitation-only Workshop Here</a>
