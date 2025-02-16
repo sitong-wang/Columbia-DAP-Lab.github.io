@@ -5,7 +5,7 @@ layout: default
 <div class="row">
   <div class="col-12">
     <div class="text-center">
-      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:250px">
+      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:250px; margin:30px">
     </div>
   </div>
 </div>  
