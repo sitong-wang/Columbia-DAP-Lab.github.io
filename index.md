@@ -2,18 +2,31 @@
 layout: default
 ---
 
+<div class="row">
+  <div class="col-4">
+    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" class="img-fluid">
+  </div>
+  <div class="col-8">
+    <h2>
+    Columbia University<br>
+    Data, Agents, and Processes Lab
+    </h2>
+  </div>
+</div>
+
+<!--
 <div style="display:inline-block">
   <div style="display:inline-block">
     <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:200px;  padding-bottom:20px">
   </div>
   <div style="display:inline-block; padding-left:20px">
     <h2>
-      <br>
     Columbia University<br>
     Data, Agents, and Processes Lab
     </h2>
   </div>
 </div>
+-->
  
 
 Agents have the potential to transform how humans, companies, and economies function, yet also introduce systemic risks at every level of technology and society.
