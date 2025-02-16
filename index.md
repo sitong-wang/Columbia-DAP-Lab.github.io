@@ -4,10 +4,11 @@ layout: default
 
 <div style="display:inline-block">
   <div style="display:inline-block">
-    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:200px; padding-right:20px; padding-bottom:20px">
+    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:200px;  padding-bottom:20px">
   </div>
-  <div style="display:inline-block">
+  <div style="display:inline-block; padding-left:20px">
     <h2>
+      <br>
     Columbia University<br>
     Data, Agents, and Processes Lab
     </h2>
