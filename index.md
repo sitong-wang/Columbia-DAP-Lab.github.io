@@ -4,7 +4,7 @@ layout: default
 
 <div style="display:inline-block">
   <div style="display:inline-block">
-    <img src="{{ '/files/images/daplab_logo_square.pn' | relative_url }}">
+    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}">
   </div>
   <div style="display:inline-block">
     <h2>
