@@ -14,7 +14,7 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 ## 3/12 Invitation-only Workshop
 
 <div class="callout-container">
-<a class="callout" href="https://www.eventbrite.com/e/nyc-agents-workshop-agents-for-work-tickets-1207855581559?aff=oddtdtcreator">Register for the Invitation-only Workshop Here</a>
+<a class="callout" href="https://daplab.cs.columbia.edu/workshop/index.html">AI Agents for Work Workshop Info</a>
 </div>
 
 The Data, Agents, and Processes Lab at Columbia University is organizing a one-day workshop to bring together industry leaders, Columbia faculty and students, and technologists who are interested in the concept of AI agents.
