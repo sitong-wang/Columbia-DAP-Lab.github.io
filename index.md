@@ -5,40 +5,15 @@ layout: default
 <div class="row">
   <div class="col-12">
     <div class="text-center">
-      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:180px">
+      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:250px">
     </div>
   </div>
 </div>  
 
 
 
-  <!--
-  <div class="col-4">
-    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" class="img-fluid">
-  </div>
-  <div class="col-8">
-    <h2>
-    Columbia University<br>
-    Data, Agents, and Processes Lab
-    </h2>
-  </div>
-</div>
-
-
-<div style="display:inline-block">
-  <div style="display:inline-block">
-    <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:200px;  padding-bottom:20px">
-  </div>
-  <div style="display:inline-block; padding-left:20px">
-    <h2>
-    Columbia University<br>
-    Data, Agents, and Processes Lab
-    </h2>
-  </div>
-</div>
--->
  
-DAPLab is a group of Columbia faculty at the forefront of applied research on Data, Agents and Processes (DAP).
+DAPLab is a group of Columbia faculty and their PhD students at the forefront of applied research on Data, Agents and Processes (DAP).
 Agents have the potential to transform how humans, companies, and economies function, yet also introduce systemic risks at every level of technology and society.
 
 The goal of the DAPLab is to pursue research to make agent-based automation accountable, reliable, and efficient, and thus trusted within organizations.
