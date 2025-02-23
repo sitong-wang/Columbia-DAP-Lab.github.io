@@ -2,8 +2,18 @@
 layout: default
 ---
 
-## Columbia University Data, Agents, and Processes Lab
+<div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:250px; margin:30px">
+    </div>
+  </div>
+</div>  
 
+
+
+ 
+DAPLab is a group of Columbia faculty and their PhD students at the forefront of applied research on Data, Agents and Processes (DAP).
 Agents have the potential to transform how humans, companies, and economies function, yet also introduce systemic risks at every level of technology and society.
 
 The goal of the DAPLab is to pursue research to make agent-based automation accountable, reliable, and efficient, and thus trusted within organizations.
@@ -14,7 +24,7 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 ## 3/12 Invitation-only Workshop
 
 <div class="callout-container">
-<a class="callout" href="https://www.eventbrite.com/e/nyc-agents-workshop-agents-for-work-tickets-1207855581559?aff=oddtdtcreator">Register for the Invitation-only Workshop Here</a>
+<a class="callout" href="https://daplab.cs.columbia.edu/workshop/index.html">AI Agents for Work Workshop Info</a>
 </div>
 
 The Data, Agents, and Processes Lab at Columbia University is organizing a one-day workshop to bring together industry leaders, Columbia faculty and students, and technologists who are interested in the concept of AI agents.
