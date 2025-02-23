@@ -31,7 +31,15 @@ The Data, Agents, and Processes Lab at Columbia University is organizing a one-d
 
 Speakers and panelists come from enterprises that are deploying agentic solutions, technologists and infrastructure leaders, and researchers at leading AI labs as well as Columbia. These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led their chain-of-thought and agentic work, [Edo Liberty](https://www.linkedin.com/in/edo-liberty-4380164/) who is CEO of Pinecone, [Cong Yu](https://www.linkedin.com/in/congyu) who leads AI at Celonis, and more.
 
+## Recent Publications
 
+[ACE: A LLM Agent-based Negotiation Coaching System](https://arxiv.org/abs/2410.01555)
+Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, <b>Zhou Yu (DAPLab)</b> 
+EMNLP 2024
+
+[Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs](https://arxiv.org/abs/2502.12504)
+Karthik Sreedhar, Alice Cai, Jenny Ma, Jeffrey V. Nickerson, <b>Lydia B. Chilton (DAPLab)</b>
+IUI 2025
 
 
 {% include members.md %}
