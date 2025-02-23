@@ -33,12 +33,12 @@ Speakers and panelists come from enterprises that are deploying agentic solution
 
 ## Recent Publications
 
-[ACE: A LLM Agent-based Negotiation Coaching System](https://arxiv.org/abs/2410.01555)
-Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, <b>Zhou Yu (DAPLab)</b> 
+[ACE: A LLM Agent-based Negotiation Coaching System](https://arxiv.org/abs/2410.01555)<br>
+Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, <b>Zhou Yu (DAPLab)</b> <br>
 EMNLP 2024
 
-[Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs](https://arxiv.org/abs/2502.12504)
-Karthik Sreedhar, Alice Cai, Jenny Ma, Jeffrey V. Nickerson, <b>Lydia B. Chilton (DAPLab)</b>
+[Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs](https://arxiv.org/abs/2502.12504)<br>
+Karthik Sreedhar, Alice Cai, Jenny Ma, Jeffrey V. Nickerson, <b>Lydia B. Chilton (DAPLab)</b><br>
 IUI 2025
 
 
