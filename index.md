@@ -29,7 +29,7 @@ The lab pursues this vision by combining expertise across systems (OS, data, clo
 
 The Data, Agents, and Processes Lab at Columbia University is organizing a one-day workshop to bring together industry leaders, Columbia faculty and students, and technologists who are interested in the concept of AI agents.
 
-Speakers and panelists come from enterprises that are deploying agentic solutions, technologists and infrastructure leaders, and researchers at leading AI labs as well as Columbia. These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led their chain-of-thought and agentic work, [Edo Liberty](https://www.linkedin.com/in/edo-liberty-4380164/) who is CEO of Pinecone, [Cong Yu](https://www.linkedin.com/in/congyu) who leads AI at Celonis, and more.
+Speakers and panelists come from enterprises that are deploying agentic solutions, technologists and infrastructure leaders, and researchers at leading AI labs as well as Columbia. These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led their chain-of-thought and agentic work, Danielle Perszyk from Amazon AGI, Jonathan Frankle from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) who leads AI at Celonis, and more.
 
 ## Recent Publications
 
