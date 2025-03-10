@@ -67,9 +67,9 @@ EMNLP 2024
 We are fortunate to have the support of the following partners:
 
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+<!--<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
   <img src="files/images/partner-celonis.svg" alt="Celonis" style="height: 80px;">
   <img src="files/images/partner-intellect.svg" alt="Intellect" style="height: 80px;">
-</div>
+</div>>-->
 
 
