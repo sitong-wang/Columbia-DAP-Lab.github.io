@@ -21,6 +21,9 @@ The goal of the DAPLab is to pursue research to make agent-based automation acco
 The lab pursues this vision by combining expertise across systems (OS, data, cloud), AI (ML, RL, NLP, computer vision, robotics), human-computer interaction, and operations research.
 
 
+For more information about the lab, please contact ewu@cs.columbia.edu
+
+
 ## 3/12 Invitation-only Workshop
 
 <div class="callout-container">
@@ -62,9 +65,11 @@ EMNLP 2024
 
 
 
+<!--
 # Partners
 
 We are fortunate to have the support of the following partners:
+-->
 
 
 <!--<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
