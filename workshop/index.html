@@ -77,7 +77,7 @@
         }
 
         .gallery img:hover {
-            transform: scale(1.1);
+            transform: scale(1.5);
         }
     </style>
        
@@ -656,10 +656,10 @@
         const gallery = document.getElementById("gallery");
 
         imageFiles.forEach(file => {
-            const img = document.createElement("img");
-            img.src = imageFolder + file;
-            img.alt = file;
-            gallery.appendChild(img);
+            const html = `<a href="${imageFolder + '/2048/' + file}" target="_blank">
+                <img src="${imageFolder + file}" alt="${file}" />
+            </a>`
+            gallery.innerHTML += html;
         });
     </script>
 
