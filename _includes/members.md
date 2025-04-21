@@ -33,7 +33,7 @@
 
 <a href="https://eugenewu.net" target="_blank" rel="noopener noreferrer">Eugene Wu</a>, CS, Data management. <span style="color: #666666;">Developed the only database system that can track row-level data-flows at near-zero cost, and forms the basis of compliance-first data systems. Winner of the NSF CAREER, VLDB 2018 Test-of-time, Google, Adobe, Amazon awards.</span><br>
 
-<a href="https://tianyipeng.github.io/" target="_blank" rel="noopener noreferrer">Tianyi Peng</a>, IEOR, Decision Making and Experimentation. <span style="color: #666666;">Pioneered the building of digital twins and the orchestration of experimentation and AI-agent platforms. Recipient of multiple awards in the field of Operations, including the Daniel H. Wagner Prize, APS, and RMP student paper awards.</span><br>
+<a href="https://tianyipeng.github.io/" target="_blank" rel="noopener noreferrer">Tianyi Peng</a>, Columbia Business School: Risk, and Operations Division. Focus on decision making and experimentation. <span style="color: #666666;">Pioneered the building of digital twins and the orchestration of experimentation and AI-agent platforms. Recipient of multiple awards in the field of Operations, including the Daniel H. Wagner Prize, APS, and RMP student paper awards.</span><br>
 
 
 
