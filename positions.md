@@ -7,46 +7,58 @@ layout: default
 
 ### Postdoc Research Position
 
-We are seeking a highly motivated postdoctoral researcher to join our team. The successful candidate will engage in cutting-edge research focusing on the research of AI Agents. This includes building a simulation environment, designing new database and system architecture, machine learning algorithms, security methods, and regulatory frameworks, assessing ethical considerations, and developing policy recommendations to guide the responsible deployment of AI Agent systems.
+# Postdoctoral Researcher – AI Agents  
+**DAPlab – Columbia University**  
+**Location:** New York, NY  
+**Supervisors:** Columbia DAPLab Faculty (including Prof. Zhou Yu and Prof. Eugene Wu)
 
-* Location: Columbia University, New York, NY
-* Position Type: Full-time, Postdoctoral Researcher
-* Duration: 1–2 years (renewable based on performance and funding)
-* Start Date: Sep. 2025 or earlier
-* Application Deadline: June 2025 (earlier preferred)
+The **Data, Agents, and Processes Lab (DAPLab)** at Columbia University is seeking a **Postdoctoral Researcher** to advance the next generation of AI agents that operate within organizations—systems that perceive, reason, and act in dynamic, interactive environments.
 
+This position offers an exciting opportunity to work at the intersection of **machine learning** and **systems research**, under the broad supervision of DAPLab faculty. Our goal is to develop intelligent, user-aligned agents by bridging large-scale data processing, systems development, interaction design, and learning-based adaptation.
 
-Key Responsibilities
+---
 
-* Conduct independent and collaborative research on topics related to the co-design AI Agents and underlying systems
-* Analyze existing and emerging regulatory frameworks affecting AI and data technologies.
-* Mentor PhDs, Masters, and Undergrads
-* Present research findings at conferences, workshops, and public forums.
+## 🔍 Research Focus
 
+We are particularly interested in candidates who can contribute to projects across:
 
-Qualifications
+- **AI agent infrastructure**: building scalable, efficient systems to support and leverage agent training, inference, and workflows  
+- **User modeling and simulation** for agent personalization and evaluation  
+- **Reinforcement learning and LLM fine-tuning** for dynamic adaptation  
+- **Human-AI interaction and usability** in real-world decision-making  
+- **Agent orchestration**, including tool use, memory, and feedback loops  
 
-* A Ph.D. in Computer Science, or a related field, awarded within the last three years.
-* Strong background in AI, databases, systems, security, and/or HCI research, with a track record of publications in reputable journals or conferences.
-* Excellent analytical, writing, and communication skills.
-* Demonstrated ability to work independently and collaboratively in an interdisciplinary environment.
-* Experience engaging with policymakers, industry stakeholders, or public interest groups is a plus.
+This role is ideal for researchers excited about combining ML algorithms, systems design, and human-centered AI to develop **generalizable and trustworthy agents**.
 
+---
 
-#### Application Instructions
+## ✅ Qualifications
 
-Interested applicants should submit the following materials:
+- PhD in Computer Science, Machine Learning, HCI, Systems, NLP, or a related field  
+- Strong publication record in top-tier venues (e.g., NeurIPS, ICML, UIST, ICLR, ACL, VLDB, SIGMOD, MLSys, SOSP, OSDI)  
+- Experience with building AI systems (e.g., agents, RL environments, orchestration frameworks)  
+- Familiarity with large language models (LLMs), reinforcement learning, or data-centric systems  
 
-* A cover letter
-* A current curriculum vitae (CV).
-* A research statement
-* Contact information for three references.
+---
 
-Please submit your application materials to: 
+## 🌟 What We Offer
 
-* Eugene Wu (ew2493@columbia.edu) and
-* Zhou Yu (zy2461@columbia) 
+- A collaborative, high-impact research environment at Columbia’s Engineering School  
+- Mentorship from faculty with deep expertise in ML, HCI, NLP, and Systems  
+- Opportunities to publish, prototype, and deploy real-world AI systems  
+- Competitive salary, benefits, and potential industry collaborations  
 
-Equal Opportunity Employer: Columbia University is an Equal Opportunity Employer. We encourage applications from individuals of all backgrounds and experiences.
-For more information about DAPLab and our research initiatives, please visit our website: https://daplab.cs.columbia.edu/
+---
 
+## 📬 How to Apply
+
+Please send the following materials to **both** contacts below:
+
+- Your CV  
+- A brief statement of research interest  
+- Up to 2 representative publications or system demos  
+
+📧 Prof. Zhou Yu – [zy2461@columbia.edu](mailto:zy2461@columbia.edu)  
+📧 Prof. Eugene Wu – [ew2493@columbia.edu](mailto:ew2493@columbia.edu)  
+
+_Applications will be reviewed on a rolling basis. Early submissions encouraged._
