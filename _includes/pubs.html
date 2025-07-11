@@ -1,0 +1,58 @@
+<div class="pubs">
+  <ol connect="rows">
+    {% for p in {{site.data.pubs}} %}
+      {% if p.hide == true %}
+        {% continue %}
+      {% endif %}
+
+      {% assign found = false %}
+      {% for tag in p.tags %}
+        {% if page.tags == nil or page.tags contains {{tag | strip}} %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+      {% if found %}
+
+        {% assign selected = "false" %}
+        {% assign style = "display: none" %}
+        {% if {{p.selected}} != nil %}
+          {% assign selected = "true" %}
+          {% assign style = "display: block" %}
+        {% endif %}
+
+        <li class="paper selected-{{selected}} {% for tag in p.tags %} tag-{{tag}}{%endfor%}" data-selected="{{selected}}" style="{{style}}" >
+          {% if p.url %} 
+          <a class="title" href="{{p.url}}">{{p.title}}</a>
+          {% else %} 
+          <div class="title">{{p.title}}</div>
+          {% endif %}
+            <div class="authors">{{p.authors}}</div>
+            <span class="conf">{{{p.conf}}</span>
+            {% if p.video %}<a href="{{p.video}}">Talk Video</a>{% endif %}
+            {% if p.blog %}<a href="{{p.blog}}">Blogpost</a>{% endif %}
+            {% if p.code %}<a href="{{p.code}}">Code</a>{% endif %}
+            {% if p.slides %}<a href="{{p.slides}}">Slides</a>{% endif %}
+            {% if p.comments %}<span><b>{{p.comments}}</b></span>{% endif %}
+
+        </li>
+
+      {% endif %}
+    {% endfor %}
+  </ol>
+</div>
+
+<style>
+.pubs {
+  font-size: 14pt;
+}
+.pubs li {
+  margin-bottom: .75em;
+}
+.pubs .title {
+  font-weight: bold;
+  text-decoration: none;
+}
+.pubs .authors {
+  color: grey;
+}
+</style>

@@ -7,7 +7,6 @@ layout: default
 
 ### Postdoc Research Position
 
-# Postdoctoral Researcher – AI Agents  
 **DAPlab – Columbia University**  
 **Location:** New York, NY  
 **Supervisors:** Columbia DAPLab Faculty (including Prof. Zhou Yu and Prof. Eugene Wu)
@@ -18,7 +17,7 @@ This position offers an exciting opportunity to work at the intersection of **ma
 
 ---
 
-## 🔍 Research Focus
+#### 🔍 Research Focus
 
 We are particularly interested in candidates who can contribute to projects across:
 
@@ -32,7 +31,7 @@ This role is ideal for researchers excited about combining ML algorithms, system
 
 ---
 
-## ✅ Qualifications
+#### ✅ Qualifications
 
 - PhD in Computer Science, Machine Learning, HCI, Systems, NLP, or a related field  
 - Strong publication record in top-tier venues (e.g., NeurIPS, ICML, UIST, ICLR, ACL, VLDB, SIGMOD, MLSys, SOSP, OSDI)  
@@ -41,7 +40,7 @@ This role is ideal for researchers excited about combining ML algorithms, system
 
 ---
 
-## 🌟 What We Offer
+#### 🌟 What We Offer
 
 - A collaborative, high-impact research environment at Columbia’s Engineering School  
 - Mentorship from faculty with deep expertise in ML, HCI, NLP, and Systems  
@@ -50,7 +49,7 @@ This role is ideal for researchers excited about combining ML algorithms, system
 
 ---
 
-## 📬 How to Apply
+#### 📬 How to Apply
 
 Please send the following materials to **both** contacts below:
 
