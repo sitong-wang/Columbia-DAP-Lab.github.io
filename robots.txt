@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daplab.cs.columbia.edu/sitemap.xml
