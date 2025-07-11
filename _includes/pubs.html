@@ -13,14 +13,7 @@
       {% endfor %}
       {% if found %}
 
-        {% assign selected = "false" %}
-        {% assign style = "display: none" %}
-        {% if {{p.selected}} != nil %}
-          {% assign selected = "true" %}
-          {% assign style = "display: block" %}
-        {% endif %}
-
-        <li class="paper selected-{{selected}} {% for tag in p.tags %} tag-{{tag}}{%endfor%}" data-selected="{{selected}}" style="{{style}}" >
+      <li class="paper selected-{{selected}} {% for tag in p.tags %} tag-{{tag}}{%endfor%}">
           {% if p.url %} 
           <a class="title" href="{{p.url}}">{{p.title}}</a>
           {% else %} 

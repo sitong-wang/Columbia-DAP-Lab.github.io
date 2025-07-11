@@ -9,7 +9,7 @@ layout: default
   <span class="btn btn-sm tagbtn tagbtn-selected" data-tag="all" >All</span>
   <span class="btn btn-outline-secondary btn-sm tagbtn" data-tag="system" >Systems</span>
   <span class="btn btn-outline-secondary btn-sm tagbtn" data-tag="hci" >HCI</span>
-  <span class="btn btn-outline-secondary btn-sm tagbtn" data-tag="benchmark" >Benchmarks</span>
+  <!--<span class="btn btn-outline-secondary btn-sm tagbtn" data-tag="benchmark" >Benchmarks</span>-->
   <span class="btn btn-outline-secondary btn-sm tagbtn" data-tag="whitepaper" >White & Position Papers</span>
 </div>
 {% include pubs.html  %}
