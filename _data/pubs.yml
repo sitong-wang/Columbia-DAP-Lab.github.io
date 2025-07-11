@@ -42,11 +42,10 @@
   url: https://agent-e3.github.io/ExACT/
   tags:
     - system
-- title: Performance of LLMs on Stochastic Modeling Operations Research Problems: From Theory to Practice.
+- title: "Performance of LLMs on Stochastic Modeling Operations Research Problems: From Theory to Practice."
   authors: Kumar, Akshit, Tianyi Peng, Yuhang Wu, Assaf Zeevi
   conf: ArXiv 2025
   url: https://arxiv.org/abs/2506.23924
-  tags: 
 - title: "DynEx: Agentic Assistance to Bridge Design and Code"
   authors: Jenny Ma, Karthik Sreedhar, Vivian Liu, Pedro Alejandro Perez, Sitong Wang, Riya Sahni, Lydia B. Chilton
   conf: CHI 2025
