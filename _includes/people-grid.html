@@ -10,9 +10,20 @@
     {% for person in people %}
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
         <div class="card h-100 text-center" style="border: none;">
-          <img src="{{ person.image | default: fallback_image }}"
-               class="card-img-top rounded-circle mx-auto mt-3 bio-img"
-               style="--avatar-size: {{ avatar_size }}px; width: var(--avatar-size); height: var(--avatar-size); object-fit: cover;">
+          <div class="card-img-container position-relative">
+            <img src="{{ person.image | default: fallback_image }}"
+                alt="{{ person.name }}"
+                class="card-img-top rounded-circle mx-auto mt-3 bio-img"
+                style="--avatar-size: {{ avatar_size }}px; width: var(--avatar-size); height: var(--avatar-size); object-fit: cover;">
+            
+            {% if show_bio and person.bio %}
+              <div class="overlay-bio">
+                <div class="overlay-content">
+                  <small>{{ person.bio }}</small>
+                </div>
+              </div>
+            {% endif %}
+          </div>
 
           <div class="card-body">
             {% if person.homepage %}
@@ -30,14 +41,6 @@
               </div>
             {% endif %}
           </div>
-
-          {% if show_bio and person.bio %}
-            <div class="overlay-bio">
-              <div class="overlay-content">
-                <small>{{ person.bio }}</small>
-              </div>
-            </div>
-          {% endif %}
 
         </div>
       </div>
