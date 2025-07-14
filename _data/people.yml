@@ -41,7 +41,7 @@
 
 - name: Daniel Hsu
   homepage: https://www.cs.columbia.edu/~djhsu/
-  image: 
+  image: /files/images/avatar/daniel.png
   bio: >
     World leader in theoretical foundations of machine learning and AI. 
     Sloan fellow and AI's 10 to Watch in 2015. Co-chair of ICML 2025, the top ML conference.
@@ -93,7 +93,7 @@
     Winner of the Amazon Alexa Prize, developed the best-rated chatbot system on 
     Amazon Alexa, reaching tens of millions of customers. Forbes 30 under 30.
   category: Faculty
-  field: [co-directors, CS, NLP]
+  field: [co-director, CS, NLP]
 
 - name: Kostis Kaffes
   homepage: https://www.cs.columbia.edu/~kkaffes/
@@ -111,7 +111,7 @@
     and forms the basis of compliance-first data systems. Winner of the NSF CAREER, VLDB 2018 
     Test-of-time, Google, Adobe, Amazon awards.
   category: Faculty
-  field: [co-directors, CS, Data management]
+  field: [co-director, CS, Data]
 
 - name: Tianyi Peng
   homepage: https://tianyipeng.github.io/
@@ -121,7 +121,7 @@
     and AI-agent platforms. Recipient of multiple awards in the field of Operations, 
     including the Daniel H. Wagner Prize, APS, and RMP student paper awards.
   category: Faculty
-  field: [Columbia Business School, Decision making]
+  field: [Columbia Business, Decision making]
 
 # Advisory Board (Categorized under Faculty)
 

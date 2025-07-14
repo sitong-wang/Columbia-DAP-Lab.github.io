@@ -58,6 +58,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1rem;
 }
 
+.card-title {
+  min-height: 2.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  /* Optional: clean look */
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
 /* For member avatar cards' overlay container */
 .overlay-bio {
   position: absolute;

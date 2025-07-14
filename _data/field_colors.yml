@@ -2,7 +2,7 @@
 Systems: badge-dark-blue
 Software: badge-light-blue
 Security: badge-indigo
-Data management: badge-sky-blue
+Data: badge-sky-blue
 Robotics: badge-steel-blue
 
 Machine learning: badge-green
@@ -24,11 +24,11 @@ HCI: badge-fuchsia
 # Academic groups
 CS: badge-silver
 IEOR: badge-gold
-Columbia Business School: badge-orange
+Columbia Business: badge-orange
 
 # Administrative and advisory
 Advisory Board: badge-advisory
-co-directors: badge-director
+co-director: badge-director
 
 # Default fallback
 Default: badge-default
