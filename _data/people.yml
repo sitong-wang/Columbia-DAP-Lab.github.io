@@ -2,6 +2,70 @@
 
 # Faculty
 
+- name: David Blei
+  homepage: https://www.cs.columbia.edu/~blei/
+  image: /files/images/avatar/david.jpg
+  bio: >
+    World leader in probabilistic ML. 10-year test of time awards at top ML conferences, 
+    including NeurIPS and ICML. Numerous awards including the AAAI John McCarthy award, 
+    Allen Newell Award, ACM Prize in Computing, Guggenheim Fellow, and Sloan Fellowship.
+  category: Faculty
+  field: [CS, ML, Causal inference]
+
+- name: Carl Vondrick
+  homepage: https://www.cs.columbia.edu/~vondrick/
+  image: /files/images/avatar/carl.webp
+  bio: >
+    PAMI Young Researcher Awardee, NSF CAREER. Senior program chair for ICLR 2025, 
+    the top ML and AI conference along with NeurIPS and ICML.
+  category: Faculty
+  field: [CS, Vision]
+
+- name: Yunzhu Li
+  homepage: https://yunzhuli.github.io/
+  image: /files/images/avatar/yunzhu.jpg
+  bio: >
+    World leader in developing embodied AI agents for real-world robotics. 
+    Best Papers at ICRA, CoRL. Sony Faculty Innovation Award.
+  category: Faculty
+  field: [CS, Robotics]
+
+- name: Shipra Agrawal
+  homepage: https://www.columbia.edu/~sa3305/
+  image: /files/images/avatar/shipra.jpeg
+  bio: >
+    Proved first optimality bounds of Thompson's sampling (core algorithm in RL). 
+    NSF CAREER. Co-chair of AIStats 2025, one of the top theoretical AI conferences.
+  category: Faculty
+  field: [IEOR, Reinforcement learning]
+
+- name: Daniel Hsu
+  homepage: https://www.cs.columbia.edu/~djhsu/
+  image: 
+  bio: >
+    World leader in theoretical foundations of machine learning and AI. 
+    Sloan fellow and AI's 10 to Watch in 2015. Co-chair of ICML 2025, the top ML conference.
+  category: Faculty
+  field: [CS, Machine learning theory]
+
+- name: Adam Elmachtoub
+  homepage: https://www.columbia.edu/~ae2516/
+  image: /files/images/avatar/adam.jpg
+  bio: >
+    Built foundations of fundamental algorithms in pricing and decision-focused learning. 
+    NSF CAREER, IBM faculty award, Forbes 30 under 30, INFORMS Early Career Gaver Award.
+  category: Faculty
+  field: [IEOR, Pricing and market design]
+
+- name: Baishakhi Ray
+  homepage: https://www.rayb.info/
+  image: /files/images/avatar/baishakhi.avif
+  bio: >
+    Pioneer of CodeLLMs and AI for Software Engineering. NSF CAREER, VMWare, 
+    and IBM faculty awards, IEEE CS TCSE Rising Star Award.
+  category: Faculty
+  field: [CS, Software, Neurosymbolic learning]
+
 - name: Junfeng Yang
   homepage: https://www.cs.columbia.edu/~junfeng/
   image: /files/images/avatar/junfeng.png
@@ -65,9 +129,12 @@
   homepage: https://www.cs.columbia.edu/~zemel/
   image: /files/images/avatar/richard.jpg
   bio: >
+    NVIDIA Pioneer of AI Award, ICML 10-year test of time award, Canadian AI Lifetime Achievement Award. 
+    Past chair of NeurIPS, FAccT conferences. 
+    Co-Founder & Research Director Vector Institute for AI. 
     Director NSF AI Institute for Artificial and Natural Intelligence.
   category: Faculty
-  field: [Advisory Board, CS, AI]
+  field: [Advisory Board, CS, ML]
 
 - name: Michael Franklin
   homepage: https://cs.uchicago.edu/people/michael-franklin/
@@ -79,14 +146,19 @@
 
 # Students
 
+- name: Nikos Pagonas
+  homepage: https://nikpag.github.io/
+  image: /files/images/avatar/nikos_pagonas.jpeg
+  category: Student
+
 - name: Georgios Liargkovas
   homepage: https://liargkovas.com/
-  image: /files/images/avatar/georgios.jpg
+  image: /files/images/avatar/georgios_liargkovas.jpg
   category: Student
 
 - name: Alex Jiakai Xu
   homepage: https://alex-xjk.github.io/
-  image: /files/images/avatar/jiakai.jpg
+  image: /files/images/avatar/jiakai_xu.jpg
   category: Student
 
 - name: Tianle Zhou

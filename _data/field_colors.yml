@@ -1,6 +1,6 @@
 # This file contains the color tag name for different fields in the DAP Lab.
 Systems: badge-dark-blue
-Software engineering: badge-light-blue
+Software: badge-light-blue
 Security: badge-indigo
 Data management: badge-sky-blue
 Robotics: badge-steel-blue
@@ -17,7 +17,7 @@ Pricing and market design: badge-mint
 Human-Centered AI: badge-magenta
 HCI: badge-magenta
 NLP: badge-violet
-Computer vision: badge-light-purple
+Vision: badge-light-purple
 Neurosymbolic learning: badge-orchid
 HCI: badge-fuchsia
 
