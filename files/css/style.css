@@ -32,3 +32,25 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   text-decoration: none;
 }
+
+
+/* For member avatar cards */
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+.bio-hover {
+  background: #f9f9f9;
+  padding: 0.75em;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+}

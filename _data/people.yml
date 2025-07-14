@@ -1,0 +1,21 @@
+- name: Eugene Wu
+  homepage: https://www.eugenewu.net/
+  image: /files/images/avatar/eugene.png
+  bio: >
+    Developed the only database system that can track row-level data-flows at near-zero cost, 
+    and forms the basis of compliance-first data systems. Winner of the NSF CAREER, VLDB 2018 
+    Test-of-time, Google, Adobe, Amazon awards.
+  category: Faculty
+
+- name: Richard Zemel
+  homepage: https://www.cs.columbia.edu/~zemel/
+  image: /files/images/avatar/richard.jpg
+  bio: >
+    Director NSF AI Institute for Artificial and Natural Intelligence.
+  category: Advisory
+
+- name: Alex Jiakai Xu
+  homepage: https://alex-xjk.github.io/
+  image: /files/images/avatar/jiakai.jpg
+  category: Student
+
