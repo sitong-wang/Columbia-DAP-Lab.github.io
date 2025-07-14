@@ -1,33 +1,36 @@
 {% assign people = site.data.people | where: "category", include.category %}
-{% assign show_bio = include.show_bio | default: false %}
-{% assign card_size = include.card_size | default: "md" %}
-{% assign fallback_image = "/files/images/default-avatar.jpg" %}
+{% assign show_bio = include.show_bio | default: "false" %}
+{% assign fallback_image = "/files/images/avatar/avatar-default.png" %}
+{% assign avatar_size = 120 %}
 
 <h2 class="mt-5">{{ include.category }}</h2>
 <div class="container">
   <div class="row">
     {% for person in people %}
       <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-        <div class="card h-100 text-center">
+        <div class="card h-100 text-center" style="border: none;">
           <img src="{{ person.image | default: fallback_image }}"
-               class="card-img-top rounded-circle mx-auto mt-3"
-               style="width: {{ card_size == "lg" and "150px" or card_size == "sm" and "90px" or "120px" }};
-                      height: {{ card_size == "lg" and "150px" or card_size == "sm" and "90px" or "120px" }};
-                      object-fit: cover;">
+               class="card-img-top rounded-circle mx-auto mt-3 bio-img"
+               style="--avatar-size: {{ avatar_size }}px; width: var(--avatar-size); height: var(--avatar-size); object-fit: cover;">
 
           <div class="card-body">
             {% if person.homepage %}
-              <h5 class="card-title mb-1"><a href="{{ person.homepage }}" target="_blank">{{ person.name }}</a></h5>
+              <h5 class="card-title mb-1"><a href="{{ person.homepage }}" target="_blank" style="text-decoration: none;">{{ person.name }}</a></h5>
             {% else %}
               <h5 class="card-title mb-1">{{ person.name }}</h5>
             {% endif %}
           </div>
 
-          {% if show_bio and person.bio %}
+          {% if show_bio=="hover" and person.bio %}
             <div class="card-footer text-start bio-hover" style="display: none;">
               <small>{{ person.bio }}</small>
             </div>
+          {% elsif show_bio=="true" and person.bio %}
+            <div class="card-footer text-start">
+              <small>{{ person.bio }}</small>
+            </div>
           {% endif %}
+
         </div>
       </div>
     {% endfor %}
@@ -39,11 +42,19 @@
   document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('mouseenter', () => {
       let bio = card.querySelector('.bio-hover');
-      if (bio) bio.style.display = 'block';
+      let img = card.querySelector('.bio-img');
+      if (bio) {
+        bio.style.display = 'block';
+        img.style.display = 'none';
+      }
     });
     card.addEventListener('mouseleave', () => {
       let bio = card.querySelector('.bio-hover');
-      if (bio) bio.style.display = 'none';
+      let img = card.querySelector('.bio-img');
+      if (bio) {
+        bio.style.display = 'none';
+        img.style.display = 'block';
+      }
     });
   });
 </script>

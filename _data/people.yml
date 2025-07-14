@@ -1,3 +1,22 @@
+# This file contains information about the people associated with the DAP Lab.
+
+# Faculty
+
+- name: Zhou Yu
+  homepage: https://www.cs.columbia.edu/~zhouyu/
+  image: /files/images/avatar/zhou.png
+  bio: >
+    Winner of the Amazon Alexa Prize, developed the best-rated chatbot system on 
+    Amazon Alexa, reaching tens of millions of customers. Forbes 30 under 30.
+  category: Faculty
+
+- name: Kostis Kaffes
+  homepage: https://www.cs.columbia.edu/~kkaffes/
+  image: /files/images/avatar/kostis.jpg
+  bio: >
+    Pioneered microsecond-scale decision making in cloud computing. Meta Research Award, former Google Visiting Faculty.
+  category: Faculty
+
 - name: Eugene Wu
   homepage: https://www.eugenewu.net/
   image: /files/images/avatar/eugene.png
@@ -7,15 +26,21 @@
     Test-of-time, Google, Adobe, Amazon awards.
   category: Faculty
 
+# Advisory Board
+
 - name: Richard Zemel
   homepage: https://www.cs.columbia.edu/~zemel/
   image: /files/images/avatar/richard.jpg
   bio: >
     Director NSF AI Institute for Artificial and Natural Intelligence.
-  category: Advisory
+  category: Advisory Board
+
+# Students
 
 - name: Alex Jiakai Xu
   homepage: https://alex-xjk.github.io/
   image: /files/images/avatar/jiakai.jpg
   category: Student
 
+- name: Tianle Zhou
+  category: Student
