@@ -1,0 +1,35 @@
+# This file contains the color tag name for different fields in the DAP Lab.
+Systems: badge-dark-blue
+Software: badge-light-blue
+Security: badge-indigo
+Data: badge-sky-blue
+Robotics: badge-steel-blue
+
+Machine learning: badge-green
+ML: badge-green  # alias to ML
+Causal inference: badge-teal
+Reinforcement learning: badge-lime
+AI: badge-lime
+Machine learning theory: badge-forest-green
+Decision making: badge-olive
+Pricing and market design: badge-mint
+
+Human-Centered AI: badge-magenta
+HCI: badge-magenta
+NLP: badge-violet
+Vision: badge-light-purple
+Neurosymbolic learning: badge-orchid
+HCI: badge-fuchsia
+
+# Academic groups
+CS: badge-silver
+IEOR: badge-gold
+Columbia Business: badge-orange
+
+# Administrative and advisory
+Advisory Board: badge-advisory
+co-director: badge-director
+
+# Default fallback
+Default: badge-default
+
