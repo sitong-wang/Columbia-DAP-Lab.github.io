@@ -14,5 +14,4 @@ gem "jekyll-remote-theme" # for remote themes
 gem "jekyll-index-pages"
 gem 'i18n', '~> 1.8'
 
-gem "github-pages", group: :jekyll_plugins
 
