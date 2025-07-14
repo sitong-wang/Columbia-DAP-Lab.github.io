@@ -9,11 +9,12 @@ Machine learning: badge-green
 ML: badge-green  # alias to ML
 Causal inference: badge-teal
 Reinforcement learning: badge-lime
+AI: badge-lime
 Machine learning theory: badge-forest-green
 Decision making: badge-olive
 Pricing and market design: badge-mint
 
-Human-centered AI: badge-magenta
+Human-Centered AI: badge-magenta
 NLP: badge-violet
 Computer vision: badge-light-purple
 Neurosymbolic learning: badge-orchid
@@ -22,8 +23,7 @@ HCI: badge-fuchsia
 # Academic groups
 CS: badge-silver
 IEOR: badge-gold
-Columbia Business School: badge-light-gold
-Risk, and Operations Division: badge-light-gold  # alias
+Columbia Business School: badge-orange
 
 # Default fallback
 Default: badge-default

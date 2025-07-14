@@ -2,6 +2,26 @@
 
 # Faculty
 
+- name: Junfeng Yang
+  homepage: https://www.cs.columbia.edu/~junfeng/
+  image: /files/images/avatar/junfeng.png
+  bio: >
+    World leader in robustness and security of AI. 
+    Winner of the Sloan fellow, Air Force YIP awardee, NSF CAREER, research awards 
+    from Google, Meta, Amazon, best paper awards at top systems and ML conferences.
+  category: Faculty
+  field: [CS, Systems, Security]
+
+- name: Lydia Chilton
+  homepage: https://www.cs.columbia.edu/~chilton/chilton.html
+  image: /files/images/avatar/lydia.jpg
+  bio: >
+    Pioneered accurate simulations of human-AI agent strategic behavior. 
+    Winner of Facebook, Adobe, and Amazon awards. 
+    Recipient of the Sloan Research Fellowship.
+  category: Faculty
+  field: [CS, Human-Centered AI]
+
 - name: Zhou Yu
   homepage: https://www.cs.columbia.edu/~zhouyu/
   image: /files/images/avatar/zhou.png
@@ -29,6 +49,16 @@
   category: Faculty
   field: [CS, Data management]
 
+- name: Tianyi Peng
+  homepage: https://tianyipeng.github.io/
+  image: /files/images/avatar/tianyi.png
+  bio: >
+    Pioneered the building of digital twins and the orchestration of experimentation 
+    and AI-agent platforms. Recipient of multiple awards in the field of Operations, 
+    including the Daniel H. Wagner Prize, APS, and RMP student paper awards.
+  category: Faculty
+  field: [Columbia Business School, Decision making]
+
 # Advisory Board
 
 - name: Richard Zemel
@@ -37,8 +67,22 @@
   bio: >
     Director NSF AI Institute for Artificial and Natural Intelligence.
   category: Advisory Board
+  field: [CS, AI]
+
+- name: Michael Franklin
+  homepage: https://cs.uchicago.edu/people/michael-franklin/
+  image: /files/images/avatar/michael.jpeg
+  bio: >
+    Founder of Berkeley's AMPLab.
+  category: Advisory Board
+  field: [CS, UChicago]
 
 # Students
+
+- name: Georgios Liargkovas
+  homepage: https://liargkovas.com/
+  image: /files/images/avatar/georgios.jpg
+  category: Student
 
 - name: Alex Jiakai Xu
   homepage: https://alex-xjk.github.io/

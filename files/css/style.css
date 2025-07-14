@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Academic Groups */
 .badge-silver          { background-color: #ffd700; color: black; }  /* CS */
 .badge-gold            { background-color: #c0c0c0; color: black; }  /* IEOR */
-.badge-light-gold      { background-color: #fff8dc; color: black; }  /* CBS */
+.badge-orange          { background-color: #ff9500; color: black; }  /* CBS */
 
 /* Fallback */
 .badge-default         { background-color: #6c757d; }  /* Neutral gray */
