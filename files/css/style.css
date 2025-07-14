@@ -54,3 +54,40 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ddd;
   font-size: 0.9em;
 }
+
+.badge {
+  font-size: 0.75em;
+  border-radius: 0.75em;
+  padding: 0.3em 0.6em;
+  color: white;
+  display: inline-block;
+}
+
+.badge-indigo          { background-color: #4b0082; }  /* Security */
+.badge-dark-blue       { background-color: #004080; }  /* Systems */
+.badge-light-blue      { background-color: #66b2ff; }  /* Software Eng */
+.badge-sky-blue        { background-color: #8ad3ef; }  /* Data Mgmt */
+.badge-steel-blue      { background-color: #46b4b0; }  /* Robotics */
+
+.badge-teal            { background-color: #008080; }  /* Causal Inference */
+.badge-green           { background-color: #28a745; }  /* ML */
+.badge-lime            { background-color: #a5d700; }  /* RL */
+.badge-forest-green    { background-color: #228b22; }  /* ML Theory */
+.badge-olive           { background-color: #6b8e23; }  /* Decision Making */
+.badge-mint            { background-color: #d6ff98; }  /* Pricing */
+
+.badge-magenta         { background-color: #d63384; }  /* Human-AI */
+.badge-violet          { background-color: #8a2be2; }  /* NLP */
+.badge-light-purple    { background-color: #c3b1e1; } /* Vision */
+.badge-orchid          { background-color: #da70d6; }  /* Neuro-symbolic */
+.badge-fuchsia         { background-color: #ff77ff; }  /* HCI */
+
+/* Academic Groups */
+.badge-silver          { background-color: #ffd700; color: black; }  /* CS */
+.badge-gold            { background-color: #c0c0c0; color: black; }  /* IEOR */
+.badge-light-gold      { background-color: #fff8dc; color: black; }  /* CBS */
+
+/* Fallback */
+.badge-default         { background-color: #6c757d; }  /* Neutral gray */
+
+

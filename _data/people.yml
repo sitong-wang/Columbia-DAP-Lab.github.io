@@ -9,6 +9,7 @@
     Winner of the Amazon Alexa Prize, developed the best-rated chatbot system on 
     Amazon Alexa, reaching tens of millions of customers. Forbes 30 under 30.
   category: Faculty
+  field: [CS, NLP]
 
 - name: Kostis Kaffes
   homepage: https://www.cs.columbia.edu/~kkaffes/
@@ -16,6 +17,7 @@
   bio: >
     Pioneered microsecond-scale decision making in cloud computing. Meta Research Award, former Google Visiting Faculty.
   category: Faculty
+  field: [CS, Systems]
 
 - name: Eugene Wu
   homepage: https://www.eugenewu.net/
@@ -25,6 +27,7 @@
     and forms the basis of compliance-first data systems. Winner of the NSF CAREER, VLDB 2018 
     Test-of-time, Google, Adobe, Amazon awards.
   category: Faculty
+  field: [CS, Data management]
 
 # Advisory Board
 
