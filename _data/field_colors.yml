@@ -15,6 +15,7 @@ Decision making: badge-olive
 Pricing and market design: badge-mint
 
 Human-Centered AI: badge-magenta
+HCI: badge-magenta
 NLP: badge-violet
 Computer vision: badge-light-purple
 Neurosymbolic learning: badge-orchid
@@ -24,6 +25,10 @@ HCI: badge-fuchsia
 CS: badge-silver
 IEOR: badge-gold
 Columbia Business School: badge-orange
+
+# Administrative and advisory
+Advisory Board: badge-advisory
+co-directors: badge-director
 
 # Default fallback
 Default: badge-default

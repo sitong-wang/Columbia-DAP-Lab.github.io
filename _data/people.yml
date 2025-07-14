@@ -20,7 +20,7 @@
     Winner of Facebook, Adobe, and Amazon awards. 
     Recipient of the Sloan Research Fellowship.
   category: Faculty
-  field: [CS, Human-Centered AI]
+  field: [CS, HCI]
 
 - name: Zhou Yu
   homepage: https://www.cs.columbia.edu/~zhouyu/
@@ -29,7 +29,7 @@
     Winner of the Amazon Alexa Prize, developed the best-rated chatbot system on 
     Amazon Alexa, reaching tens of millions of customers. Forbes 30 under 30.
   category: Faculty
-  field: [CS, NLP]
+  field: [co-directors, CS, NLP]
 
 - name: Kostis Kaffes
   homepage: https://www.cs.columbia.edu/~kkaffes/
@@ -47,7 +47,7 @@
     and forms the basis of compliance-first data systems. Winner of the NSF CAREER, VLDB 2018 
     Test-of-time, Google, Adobe, Amazon awards.
   category: Faculty
-  field: [CS, Data management]
+  field: [co-directors, CS, Data management]
 
 - name: Tianyi Peng
   homepage: https://tianyipeng.github.io/
@@ -59,23 +59,23 @@
   category: Faculty
   field: [Columbia Business School, Decision making]
 
-# Advisory Board
+# Advisory Board (Categorized under Faculty)
 
 - name: Richard Zemel
   homepage: https://www.cs.columbia.edu/~zemel/
   image: /files/images/avatar/richard.jpg
   bio: >
     Director NSF AI Institute for Artificial and Natural Intelligence.
-  category: Advisory Board
-  field: [CS, AI]
+  category: Faculty
+  field: [Advisory Board, CS, AI]
 
 - name: Michael Franklin
   homepage: https://cs.uchicago.edu/people/michael-franklin/
   image: /files/images/avatar/michael.jpeg
   bio: >
     Founder of Berkeley's AMPLab.
-  category: Advisory Board
-  field: [CS, UChicago]
+  category: Faculty
+  field: [Advisory Board, CS, UChicago]
 
 # Students
 

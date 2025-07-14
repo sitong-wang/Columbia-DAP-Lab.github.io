@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 33, 33, 0.85);
+  background: rgba(33, 33, 33, 0.75);
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-size: 0.75em;
+  font-size: 0.85em;
   pointer-events: none;
 }
 
@@ -126,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
 .badge-silver          { background-color: #ffd700; color: black; }  /* CS */
 .badge-gold            { background-color: #c0c0c0; color: black; }  /* IEOR */
 .badge-orange          { background-color: #ff9500; color: black; }  /* CBS */
+
+/* Administrative and advisory */
+.badge-advisory       { background-color: #cc0000; }  /* Advisory Board */
+.badge-director        { background-color: #ff0000; }  /* Co-Directors */
 
 /* Fallback */
 .badge-default         { background-color: #6c757d; }  /* Neutral gray */
