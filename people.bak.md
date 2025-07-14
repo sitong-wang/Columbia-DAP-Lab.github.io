@@ -1,8 +1,10 @@
+<!--
+This document is deprecated and will be removed in the future.
+Please refer to the new people data at `~/_data/people.yml`.
+-->
+
+
 # Members
-
-
-<!--#### Students-->
-
 
 #### Faculty 
 
