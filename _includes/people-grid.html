@@ -1,6 +1,6 @@
 {% assign field_colors = site.data.field_colors %}
 {% assign people = site.data.people | where: "category", include.category %}
-{% assign show_bio = include.show_bio | default: "false" %}
+{% assign show_bio = include.show_bio | default: false %}
 {% assign fallback_image = "/files/images/avatar/avatar-default.png" %}
 {% assign avatar_size = 120 %}
 
@@ -31,13 +31,11 @@
             {% endif %}
           </div>
 
-          {% if show_bio=="hover" and person.bio %}
-            <div class="card-footer text-start bio-hover" style="display: none;">
-              <small>{{ person.bio }}</small>
-            </div>
-          {% elsif show_bio=="true" and person.bio %}
-            <div class="card-footer text-start">
-              <small>{{ person.bio }}</small>
+          {% if show_bio and person.bio %}
+            <div class="overlay-bio">
+              <div class="overlay-content">
+                <small>{{ person.bio }}</small>
+              </div>
             </div>
           {% endif %}
 
@@ -47,25 +45,3 @@
   </div>
 </div>
 
-{% if show_bio=="hover" %}
-<script>
-  document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('mouseenter', () => {
-      let bio = card.querySelector('.bio-hover');
-      let img = card.querySelector('.bio-img');
-      if (bio) {
-        bio.style.display = 'block';
-        img.style.display = 'none';
-      }
-    });
-    card.addEventListener('mouseleave', () => {
-      let bio = card.querySelector('.bio-hover');
-      let img = card.querySelector('.bio-img');
-      if (bio) {
-        bio.style.display = 'none';
-        img.style.display = 'block';
-      }
-    });
-  });
-</script>
-{% endif %}
