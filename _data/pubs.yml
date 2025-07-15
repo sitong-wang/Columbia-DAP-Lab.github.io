@@ -36,6 +36,15 @@
   tags:
     - system
     - whitepaper
+- title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
+  url: "https://github.com/cudbg/Suna/blob/main/Suna_tech_report.pdf"
+  conf: VLDB 2025
+  authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
+  selected: true
+  website: https://github.com/cudbg/Suna
+  tags:
+    - db
+    - system
 - title: "ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning"
   authors: Xiao Yu, Baolin Peng, Vineeth Vajipey, Hao Cheng, Michel Galley, Jianfeng Gao, Zhou Yu
   conf: ICLR 2025
