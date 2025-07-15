@@ -145,21 +145,32 @@
   field: [Advisory Board, CS, UChicago]
 
 # Students
-
-- name: Nikos Pagonas
-  homepage: https://nikpag.github.io/
-  image: /files/images/avatar/nikos_pagonas.jpeg
-  category: Student
+# In alphabetical order by lastname
 
 - name: Georgios Liargkovas
   homepage: https://liargkovas.com/
   image: /files/images/avatar/georgios_liargkovas.jpg
   category: Student
 
-- name: Alex Jiakai Xu
+- name: Nikos Pagonas
+  homepage: https://nikpag.github.io/
+  image: /files/images/avatar/nikos_pagonas.jpeg
+  category: Student
+
+- name: Ryan Shea
+  image: /files/images/avatar/ryan_shea.jpg
+  category: Student
+
+- name: Yuhang Wu
+  image: /files/images/avatar/yuhang_wu.JPG
+  category: Student
+
+- name: Jiakai Xu
   homepage: https://alex-xjk.github.io/
   image: /files/images/avatar/jiakai_xu.jpg
   category: Student
 
 - name: Tianle Zhou
+  homepage: https://www.linkedin.com/in/tian-le-zhou-99a145221/
+  image: /files/images/avatar/tianle_zhou.png
   category: Student
