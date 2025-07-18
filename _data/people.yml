@@ -145,7 +145,8 @@
   field: [Advisory Board, CS, UChicago]
 
 # Students
-# In alphabetical order by lastname
+# Since commit a92a4bc, for ease of maintenance,
+# student categories no longer need to be sorted; Liquid will automatically sort them.
 
 - name: Georgios Liargkovas
   homepage: https://liargkovas.com/
