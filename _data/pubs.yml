@@ -126,3 +126,17 @@
   short: true
   tags:
     - system
+
+- title: "Alexpaca: Learning Factual Clarification Question Generation Without Examples"
+  authors: Matthew Toles, Yukun Huang, Zhou Yu, Luis Gravano
+  url: https://arxiv.org/abs/2310.11571
+  conf: GEM^2 Workshop at ACL 2025
+  tags: 
+    - ai
+
+- title: "Program Synthesis Dialog Agents for Interactive Decision-Making"
+  authors: Matthew Toles, Nikhil Balwani, Rattandeep Singh, Valentina Giulia Sartori Rodriguez, Zhou Yu
+  url: https://arxiv.org/abs/2502.19610
+  conf: ArXiv 2025
+  tags: 
+    - ai
