@@ -161,6 +161,11 @@
   image: /files/images/avatar/ryan_shea.jpg
   category: Student
 
+- name: Matthew Toles
+  homepage: https://matoles.com/
+  image: /files/images/avatar/matthew_toles.jpg
+  category: Student
+
 - name: Yuhang Wu
   image: /files/images/avatar/yuhang_wu.JPG
   category: Student
@@ -173,9 +178,4 @@
 - name: Tianle Zhou
   homepage: https://www.linkedin.com/in/tian-le-zhou-99a145221/
   image: /files/images/avatar/tianle_zhou.png
-  category: Student
-
-- name: Matthew Toles
-  homepage: https://matoles.com/
-  image: /files/images/avatar/matthew_toles.jpg
   category: Student
