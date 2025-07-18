@@ -30,7 +30,7 @@ For more information about the lab, please contact ewu@cs.columbia.edu
 
 ### Upcoming
 
-**Fall 2025 DAPLab Lunch Seminar:**   The DAPlab's tuesday noo seminar invites speakers that can share cutting-edge agent-systems research or can talk about processes in their organizations and how they are trying to automate them.
+**Fall 2025 DAPLab Lunch Seminar:**   The DAPlab's tuesday noon seminar invites speakers that can share cutting-edge agent-systems research or can talk about processes in their organizations and how they are trying to automate them.
 
 **Fall 2025 [Agentic System Made Real](https://w6113.github.io/) Course:**   This second iteration of the course will be led by [Junfeng Yang](https://www.cs.columbia.edu/~junfeng/), with a focus on security issues related to AI Agents.
 
