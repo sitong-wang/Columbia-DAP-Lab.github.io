@@ -3,6 +3,9 @@
 {% assign show_bio = include.show_bio | default: false %}
 {% assign fallback_image = "/files/images/avatar/avatar-default.png" %}
 {% assign avatar_size = 120 %}
+{% if include.category == "Student" %}
+  {% assign people = people | sort: "name" %}
+{% endif %}
 
 <h2 class="mt-5">{{ include.category }}</h2>
 <div class="container">
