@@ -1,5 +1,34 @@
+- title: "March 2025 Workshop: AI Agents for Work"
+  date: "2025-03-12"
+  link: "https://daplab.cs.columbia.edu/workshop/index.html"
+  description: >
+    On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business School. 
+    The one-day workshop to brought together over 200 industry leaders, Columbia faculty and students, 
+    and technologists who are interested in the concept of AI agents.
+    
+    Speakers and panelists come from enterprises that are deploying agentic solutions, technologists 
+    and infrastructure leaders, and researchers at leading AI labs as well as Columbia. 
+    These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led 
+    their chain-of-thought and agentic work, Danielle Perszyk from Amazon AGI, Jonathan Frankle 
+    from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) 
+    who leads AI at Celonis, and more.
+
+- title: "Efficient Fine-Tuning and Compression of Large Language Models: Towards Low-bit and Ultra-Low Parameter Solutions"
+  date: "2025-07-07"
+  description: >
+    Efficient fine-tuning of Large Language Models (LLMs) is crucial due to their substantial memory
+    and computational demands. This seminar discusses recent advancements in techniques aimed at 
+    significantly reducing these costs, enabling effective adaptation of large-scale models even on
+    resource-constrained hardware. The talk will begin with an overview of current challenges and
+    mainstream approaches to compressing and fine-tuning LLMs, highlighting trade-offs between 
+    model size, accuracy, and efficiency. Subsequently, the speaker will introduce novel approaches 
+    that enable fine-tuning at extremely low precision and ultra-low parameter regimes, 
+    significantly reducing memory requirements without compromising performance. Finally, the 
+    discussion will cover recent progress and future directions for achieving efficient deployment 
+    of LLMs in real-world applications.
+
 - title: "Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond"
-  date: 2025-07-10
+  date: "2025-07-10"
   description: >
     Autonomous agents powered by large language models (LLMs) are emerging as powerful tools for a 
     wide range of tasks. However, a single agent often faces performance ceilings, especially when 
@@ -15,18 +44,21 @@
     long-term vision of building Agent Societies: a human-centric society consisting of scalable, 
     trustworthy, and collaborative intelligent agents and humans.
 
-- title: "March 2025 Workshop: AI Agents for Work"
-  date: 2025-03-12
-  link: "https://daplab.cs.columbia.edu/workshop/index.html"
+- title: "The Road to High-Quality LLM Inference Services: System, Data, and Context"
+  date: "2025-07-17"
   description: >
-    On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business School. 
-    The one-day workshop to brought together over 200 industry leaders, Columbia faculty and students, 
-    and technologists who are interested in the concept of AI agents.
-    
-    Speakers and panelists come from enterprises that are deploying agentic solutions, technologists 
-    and infrastructure leaders, and researchers at leading AI labs as well as Columbia. 
-    These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led 
-    their chain-of-thought and agentic work, Danielle Perszyk from Amazon AGI, Jonathan Frankle 
-    from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) 
-    who leads AI at Celonis, and more.
+    This talk is about sharing the experience of building enterprise LLM inference services including
+    (1) high-level principles of increasing performance and saving costs
+    (2) a data selection algorithm to finetune LLM to increase the accuracy of domain-specific questions
+    (3) a method to enhance users' prompt with domain-specific  knowledge bases.
 
+- title: "From Serving LLMs to Serving Agents on the Cloud"
+  date: "2025-07-24"
+  description: >
+    In this talk, I will discuss key challenges in building agentic AI systems in the cloud. 
+    I will highlight DeltaZip, our recent work on efficiently deploying multiple fine-tuned models 
+    -- a step we believe is essential toward enabling future AI systems. The core insight behind 
+    DeltaZip is that fine-tuning often introduces small-magnitude changes to a pre-trained model. 
+    By co-designing the serving system and compression algorithm, DeltaZip achieves a 2x to 12x 
+    throughput improvement over state-of-the-art systems. In addition to this project, I will share 
+    some ongoing challenges we are tackling in this space.

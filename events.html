@@ -2,3 +2,71 @@
 layout: default
 title: Events
 ---
+
+{% assign events = site.data.events | sort: "date" | reverse %}
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+{% assign upcoming = false %}
+{% assign past = false %}
+{% for event in events %}
+  {% if event.date >= today %}
+    {% assign upcoming = true %}
+  {% else %}
+    {% assign past = true %}
+  {% endif %}
+{% endfor %}
+
+<div class="container my-5">
+  {% if upcoming %}
+    <h2>Upcoming Events</h2>
+    <div class="mb-5">
+      {% for event in events %}
+        {% if event.date >= today %}
+          <div class="mb-4">
+            {% if event.link %}
+              <h4><a href="{{ event.link }}">{{ event.title }}</a></h4>
+            {% else %}
+              <h4>{{ event.title }}</h4>
+            {% endif %}
+            <p class="text-muted">{{ event.date | date: "%B %d, %Y" }}</p>
+            <div class="markdown-content">
+              {{ event.description | markdownify }}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if past %}
+    <h2>Past Events</h2>
+    <div>
+      {% for event in events %}
+        {% if event.date < today %}
+          <div class="mb-4">
+            {% if event.link %}
+              <h4><a href="{{ event.link }}">{{ event.title }}</a></h4>
+            {% else %}
+              <h4>{{ event.title }}</h4>
+            {% endif %}
+            <p class="text-muted">{{ event.date | date: "%B %d, %Y" }}</p>
+            <div class="markdown-content">
+              {{ event.description | markdownify }}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+<style>
+.markdown-content p {
+  margin-bottom: 0.5em;
+}
+.markdown-content strong {
+  font-weight: bold;
+}
+.markdown-content em {
+  font-style: italic;
+}
+</style>

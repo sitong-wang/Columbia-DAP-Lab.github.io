@@ -9,3 +9,31 @@
   content: >
     This second iteration of the course will be led by [Junfeng Yang](https://www.cs.columbia.edu/~junfeng/), 
     with a focus on security issues related to AI Agents.
+
+- title: >
+    October 2025 Workshop
+  content: >
+    We plan to run the second iteration of our AI Agents for Work workshop in October (date TBA). 
+    The first day will be a public event with cutting edge research, war stories from deployments,
+    and engaging panels. The second day will be private for DAPLab industry partners to deeply 
+    engage with the students, faculty, and other partners.
+
+- title: >
+    November 2025 Undergraduate Computer and Data Science Research fair
+  content: >
+    The UCDS research fair celebrates the leading undergraduate research across 
+    Columbia University's many schools as well as Barnard College.  This is co-organized with 
+    Columbia's [Data Science Institute](https://datascience.columbia.edu/), and more details will 
+    be announced early Fall. See [last year's event here](https://datascience.columbia.edu/outreach/events/undergraduate-research-fair-2024/)!
+
+- title: >
+    Spring 2025 [Agentic System Made Real](https://w6113.github.io/) Course
+  content: >
+    LLMs have opened new possibilities of automated agents that plan and complete tasks on the 
+    user's behalf. Such agents have the potential to usher in a new industrial revolution by 
+    automating organizational processes. This graduate-level course will cut across the technology 
+    stack to examine the research questions that need to be answered for agents to be possible in 
+    real tasks that matter. Each session will review 1-3 papers or systems, and discuss research 
+    opportunities that arise from the gap between existing research and enterprise requirements. 
+    Topics will span systems (data systems and ML systems), AI (LLMs, agent-based planning), HCI, 
+    and theory (reinforcement learning, markets).

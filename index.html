@@ -25,62 +25,75 @@ layout: default
     </p>
   </div>
 
-  <div class="row">
-    <div class="col-lg-4 mb-4">
-      <h4>News & Education</h4>
-      <div class="card p-3 h-100">
-        {% for item in site.data.news %}
-          <div class="mb-3">
-            <h5>{{ item.title | markdownify }}</h5>
-            <p>{{ item.content | markdownify }}</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-header bg-primary bg-gradient text-white border-bottom-0">
+            <h4 class="mb-0">News & Education</h4>
           </div>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="col-lg-4 mb-4">
-      <h4>Events</h4>
-      <div class="card p-3 h-100">
-        {% assign recent_events = site.data.events | sort: "date" | reverse | slice: 0, 5 %}
-        <ul class="list-unstyled">
-          {% for event in recent_events %}
-          <li class="mb-3">
-            <small>{{ event.date }}</small>
-            <br>
-            {% if event.link %}
-              <a href="{{ event.link }}"><strong>{{ event.title }}</strong></a>
-            {% else %}
-              <strong>{{ event.title }}</strong>
-            {% endif %}
-            {{ event.description | markdownify | truncate: 200 }}
-          </li>
-          {% endfor %}
-        </ul>
-        <div class="text-end">
-          <a href="{{ '/events' | relative_url }}" class="btn btn-sm btn-outline-primary">More events...</a>
+          <div class="card-body p-3">
+            {% for item in site.data.news %}
+              <div class="mb-3">
+                <h5>{{ item.title | markdownify }}</h5>
+                <p>{{ item.content | markdownify }}</p>
+              </div>
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-lg-4 mb-4">
-      <h4>Recent Publications</h4>
-      <div class="card p-3 h-100">
-        {% assign recent_pubs = site.data.pubs | sort: "pub_date" | reverse | slice: 0, 8 %}
-        <ul class="list-unstyled">
-          {% for pub in recent_pubs %}
-          <li class="mb-2">
-            <span class="text-muted">{{ pub.pub_date | date: "%B %Y" }}</span>
-            <br>
-            <a href="{{ pub.url }}" style="text-decoration: none;"><strong>{{ pub.title }}</strong></a>
-          </li>
-          {% endfor %}
-        </ul>
-        <div class="text-end">
-          <a href="{{ '/publications' | relative_url }}" class="btn btn-sm btn-outline-primary">More publications...</a>
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <div class="card-header bg-primary bg-gradient text-white border-bottom-0">
+            <h4 class="mb-0">Events</h4>
+          </div>
+          <div class="card-body p-3">
+            {% assign recent_events = site.data.events | sort: "date" | reverse | slice: 0, 4 %}
+            <ul class="list-unstyled">
+              {% for event in recent_events %}
+              <li class="mb-3">
+                <small>{{ event.date }}</small><br>
+                {% if event.link %}
+                  <a href="{{ event.link }}"><strong>{{ event.title }}</strong></a>
+                {% else %}
+                  <strong>{{ event.title }}</strong>
+                {% endif %}
+                {{ event.description | markdownify | truncate: 100 }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="card-footer bg-white border-top-0 text-end">
+            <a href="{{ '/events' | relative_url }}" class="btn btn-sm btn-outline-primary">More events...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100">
+          <div class="card-header bg-primary bg-gradient text-white border-bottom-0">
+            <h4 class="mb-0">Publications</h4>
+          </div>
+          <div class="card-body p-3">
+            {% assign recent_pubs = site.data.pubs | sort: "pub_date" | reverse | slice: 0, 8 %}
+            <ul class="list-unstyled">
+              {% for pub in recent_pubs %}
+              <li class="mb-2">
+                <span class="text-muted">{{ pub.pub_date | date: "%B %Y" }}</span><br>
+                <a href="{{ pub.url }}" style="text-decoration: none;">{{ pub.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="card-footer bg-white border-top-0 text-end">
+            <a href="{{ '/publications' | relative_url }}" class="btn btn-sm btn-outline-primary">More publications...</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
 </div>
 
 <style>
