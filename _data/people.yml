@@ -181,6 +181,11 @@
   image: /files/images/avatar/tianle_zhou.png
   category: Student
 
+- name: Yunan Lu
+  homepage: https://www.linkedin.com/in/luyunan/
+  image: /files/images/avatar/yunanlu.jpg
+  category: Student
+
 - name: Charlie Summers
   homepage: https://www.linkedin.com/in/charliesummers/
   image: /files/images/avatar/charlie_summers.jpeg
