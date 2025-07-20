@@ -1,6 +1,7 @@
 <div class="pubs">
   <ol connect="rows">
-    {% for p in {{site.data.pubs}} %}
+    {% assign sorted_pubs = site.data.pubs | sort: "pub_date" | reverse %}
+    {% for p in sorted_pubs %}
       {% if p.hide == true %}
         {% continue %}
       {% endif %}

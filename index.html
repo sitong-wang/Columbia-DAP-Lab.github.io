@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 text-center my-4">
+      <img src="{{ '/files/images/daplab_logo_square.png' | relative_url }}" style="max-width:250px; margin:30px">
+    </div>
+  </div>
+
+  <div class="my-4">
+    <p>
+      DAPLab is a group of Columbia faculty and their PhD students at the forefront of applied research on Data, Agents and Processes (DAP).
+      Agents have the potential to transform how humans, companies, and economies function, yet also introduce systemic risks at every level of technology and society.
+    </p>
+    <p>
+      The goal of the DAPLab is to pursue research to make agent-based automation accountable, reliable, and efficient, and thus trusted within organizations.
+    </p>
+    <p>
+      The lab pursues this vision by combining expertise across systems (OS, data, cloud), AI (ML, RL, NLP, computer vision, robotics), human-computer interaction, and operations research.
+    </p>
+    <p>
+      For more information about the lab, please contact ewu@cs.columbia.edu
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 mb-4">
+      <h4>News & Education</h4>
+      <div class="card p-3 h-100">
+        {% for item in site.data.news %}
+          <div class="mb-3">
+            <h5>{{ item.title | markdownify }}</h5>
+            <p>{{ item.content | markdownify }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+      <h4>Events</h4>
+      <div class="card p-3 h-100">
+        {% assign recent_events = site.data.events | sort: "date" | reverse | slice: 0, 5 %}
+        <ul class="list-unstyled">
+          {% for event in recent_events %}
+          <li class="mb-3">
+            <small>{{ event.date }}</small>
+            <br>
+            {% if event.link %}
+              <a href="{{ event.link }}"><strong>{{ event.title }}</strong></a>
+            {% else %}
+              <strong>{{ event.title }}</strong>
+            {% endif %}
+            {{ event.description | markdownify | truncate: 200 }}
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="text-end">
+          <a href="{{ '/events' | relative_url }}" class="btn btn-sm btn-outline-primary">More events...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+      <h4>Recent Publications</h4>
+      <div class="card p-3 h-100">
+        {% assign recent_pubs = site.data.pubs | sort: "pub_date" | reverse | slice: 0, 8 %}
+        <ul class="list-unstyled">
+          {% for pub in recent_pubs %}
+          <li class="mb-2">
+            <span class="text-muted">{{ pub.pub_date | date: "%B %Y" }}</span>
+            <br>
+            <a href="{{ pub.url }}" style="text-decoration: none;"><strong>{{ pub.title }}</strong></a>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="text-end">
+          <a href="{{ '/publications' | relative_url }}" class="btn btn-sm btn-outline-primary">More publications...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  background-color: #fafafa;
+}
+</style>
+

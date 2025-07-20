@@ -32,34 +32,43 @@
 - title: "Position Paper: A System-Centric Approach is Necessary for AI Agents"
   authors: Nikos Pagonas, Haonan Wang, Jiaxiang Liu, Tianle Zhou, Deepak Dastrala, Raman Jatkar, Anirudh Sivaraman, Zhou Yu, Kostis Kaffes, Eugene Wu
   conf: ArXiv 2025
+  pub_date: "2025-06-17"
   url: https://www.dropbox.com/scl/fi/a0ace99pszixy5p39shdz/agentreadysystems-neurips25-submitted.pdf?rlkey=9sc4atktq2igpm1xj9tkpdm0j&dl=0
   tags:
     - system
     - whitepaper
+
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
   url: "https://github.com/cudbg/Suna/blob/main/Suna_tech_report.pdf"
   conf: VLDB 2025
+  pub_date: "2025-07-14"
   authors: Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu
   selected: true
   website: https://github.com/cudbg/Suna
   tags:
     - db
     - system
+
 - title: "ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning"
   authors: Xiao Yu, Baolin Peng, Vineeth Vajipey, Hao Cheng, Michel Galley, Jianfeng Gao, Zhou Yu
   conf: ICLR 2025
+  pub_date: "2025-02-27"
   url: https://agent-e3.github.io/ExACT/
   tags:
     - system
+
 - title: "Performance of LLMs on Stochastic Modeling Operations Research Problems: From Theory to Practice."
   authors: Akshit Kumar, Tianyi Peng, Yuhang Wu, Assaf Zeevi
   conf: ArXiv 2025
+  pub_date: "2025-06-30"
   url: https://arxiv.org/abs/2506.23924
   tags:
     - ai
+
 - title: "DynEx: Agentic Assistance to Bridge Design and Code"
   authors: Jenny Ma, Karthik Sreedhar, Vivian Liu, Pedro Alejandro Perez, Sitong Wang, Riya Sahni, Lydia B. Chilton
   conf: CHI 2025
+  pub_date: "2025-02-07"
   url: https://arxiv.org/abs/2410.00400
   tags:
     - system
@@ -68,6 +77,7 @@
 - title: "AnimationAgents: A Multi-Modal Team of Agents for Generating, Debugging, and Human Editing of Animation Code"
   authors: Vivian Liu, Rubaiat Habib Kazi, Li-Yi Wei, Matthew Fisher, Timothy Langlois, Seth Walker, Lydia B. Chilton
   conf: CHI 2025
+  pub_date: "2025-02-24"
   url: https://vivian-liu.com/#/logomotion
   tags:
     - system
@@ -76,6 +86,7 @@
 - title: "Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs"
   authors: Karthik Sreedhar, Alice Cai, Jenny Ma, Jeffrey V. Nickerson, Lydia B. Chilton
   conf: IUI 2025
+  pub_date: 
   url: https://arxiv.org/abs/2502.12504
   tags:
     - agent
@@ -83,6 +94,7 @@
 - title: "ACE: A LLM Agent-based Negotiation Coaching System"
   authors: Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, Zhou Yu
   conf: EMNLP 2024
+  pub_date: "2025-02-18"
   url: https://arxiv.org/abs/2410.01555
   tags:
     - system
@@ -92,6 +104,7 @@
   authors: Shreya Shankar, Bhavya Chopra, Mawil Hasan, Stephen Lee, Bjoern Hartmann, Joseph Hellerstein, Aditya Parameswaran, Eugene Wu
   url: https://arxiv.org/abs/2504.14764
   conf: UIST 2025
+  pub_date: "2025-04-20"
   tags:
     - hci
     - system 
@@ -100,21 +113,25 @@
   url: https://arxiv.org/abs/2410.12189
   authors: Shreya Shankar, Tristan Chambers, Tarak Shah, Aditya G. Parameswaran, Eugene Wu
   conf: VLDB 2025
+  pub_date: "2025-04-01"
   tags:
     - system
 
 - title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
   authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   conf: DEEM Workshop at SIGMOD 2025
+  pub_date: "2025-06-22"
   comment: Best Paper Award!
   url: https://www.dropbox.com/scl/fi/cb9y2a95ihjh9kap36w93/celonis-deem25-hierseg-submitted.pdf?rlkey=k9op1ydiizm0bxsrfbbr3f5h4&dl=0
   tags:
     - system
+
 - title: "Prompt Editor: A Taxonomy-driven System for Guided LLM Prompt Development in Enterprise Settings"
   authors: Jeffery Cao, Lampros Flokas, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
   short: true
   url: https://www.dropbox.com/scl/fi/klg9p01u0sq3xgtxo4nrc/celonis-sigmoddemo25-prompteditor-submitted.pdf?rlkey=n699156fi3t1tcqmatvfy28s3&dl=0
   conf: SIGMOD Demo 2025
+  pub_date: "2025-06-22"
   comment: Best Industry Demo Award!
   tags:
     - system
@@ -123,6 +140,7 @@
   authors: Shuo Zhang, Zezhou Huang, Eugene Wu
   url: "https://www.dropbox.com/scl/fi/5abz3z48jx3gnrwe86qrx/datacleanwllm-dais25.pdf?rlkey=9mzvk9vi95hn2utbu9ecfj72x&dl=0"
   conf: DAIS Workshop at ICDE 2025
+  pub_date: "2024-10-21"
   short: true
   tags:
     - system
@@ -131,6 +149,7 @@
   authors: Matthew Toles, Yukun Huang, Zhou Yu, Luis Gravano
   url: https://arxiv.org/abs/2310.11571
   conf: GEM^2 Workshop at ACL 2025
+  pub_date: "2024-10-11"
   tags: 
     - ai
 
@@ -138,5 +157,6 @@
   authors: Matthew Toles, Nikhil Balwani, Rattandeep Singh, Valentina Giulia Sartori Rodriguez, Zhou Yu
   url: https://arxiv.org/abs/2502.19610
   conf: ArXiv 2025
+  pub_date: "2025-03-17"
   tags: 
     - ai

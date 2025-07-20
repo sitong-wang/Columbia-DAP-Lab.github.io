@@ -1,20 +1,32 @@
-# The following are required
-#
-# - title:
-#   author: 
-#   date:
-#   time: 
-#   desc:
-#   loc: 
-#
-# The following are optional
-#
-#   url: <to an event page>
-#
-
-
 - title: "Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond"
-  author: Yusen Zhang 
-  date: 7/10/25 
-  desc: "Autonomous agents powered by large language models (LLMs) are emerging as powerful tools for a wide range of tasks. However, a single agent often faces performance ceilings, especially when tackling complex workflows like running an AI company or AI4Research, and is inherently limited in scenarios that involve multiple instances, such as simulations, embodied agents, and digital twins. In this talk, I will present Multi-Agent Large Language Models (MA-LLMs), a promising paradigm designed to overcome the fundamental limitations of single-agent systems. I will begin by highlighting three threads of my previous work that lay the groundwork for MA-LLMs. Next, I’ll introduce our research on fairness summarization, which demonstrates challenges that a single agent struggles to handle well. Then, I will present how agents can collaborate in a chain-of-agent manner to solve difficult tasks, such as long-document summarization and multi-step reasoning. Finally, I will reflect on current limitations in MA-LLMs and outline my long-term vision of building Agent Societies: a human-centric society consisting of scalable, trustworthy, and collaborative intelligent agents and humans."
+  date: 2025-07-10
+  description: >
+    Autonomous agents powered by large language models (LLMs) are emerging as powerful tools for a 
+    wide range of tasks. However, a single agent often faces performance ceilings, especially when 
+    tackling complex workflows like running an AI company or AI4Research, and is inherently limited 
+    in scenarios that involve multiple instances, such as simulations, embodied agents, and digital 
+    twins. In this talk, I will present Multi-Agent Large Language Models (MA-LLMs), a promising 
+    paradigm designed to overcome the fundamental limitations of single-agent systems. I will begin 
+    by highlighting three threads of my previous work that lay the groundwork for MA-LLMs. Next, 
+    I'll introduce our research on fairness summarization, which demonstrates challenges that a 
+    single agent struggles to handle well. Then, I will present how agents can collaborate in a 
+    chain-of-agent manner to solve difficult tasks, such as long-document summarization and 
+    multi-step reasoning. Finally, I will reflect on current limitations in MA-LLMs and outline my 
+    long-term vision of building Agent Societies: a human-centric society consisting of scalable, 
+    trustworthy, and collaborative intelligent agents and humans.
+
+- title: "March 2025 Workshop: AI Agents for Work"
+  date: 2025-03-12
+  link: "https://daplab.cs.columbia.edu/workshop/index.html"
+  description: >
+    On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business School. 
+    The one-day workshop to brought together over 200 industry leaders, Columbia faculty and students, 
+    and technologists who are interested in the concept of AI agents.
+    
+    Speakers and panelists come from enterprises that are deploying agentic solutions, technologists 
+    and infrastructure leaders, and researchers at leading AI labs as well as Columbia. 
+    These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led 
+    their chain-of-thought and agentic work, Danielle Perszyk from Amazon AGI, Jonathan Frankle 
+    from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) 
+    who leads AI at Celonis, and more.
 
