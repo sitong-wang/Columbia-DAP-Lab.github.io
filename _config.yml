@@ -1,5 +1,7 @@
 title: "Columbia DAP Lab"
 description: ""
 baseurl: "" # Keep this blank for GitHub Pages root
-url: "https://columbia-dap-lab.github.io/" # Update with your actual GitHub Pages URL
+url: "https://daplab.cs.columbia.edu"
 theme: minima # Default theme, or replace with your theme
+plugins:
+  - jekyll-sitemap
