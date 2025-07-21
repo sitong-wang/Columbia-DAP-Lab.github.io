@@ -15,6 +15,13 @@ title: Events
   {% endif %}
 {% endfor %}
 
+<style>
+.who {
+  font-weight: normal;
+  color: gray;
+}
+</style>
+
 <div class="container my-5">
   {% if upcoming %}
     <h2>Upcoming Events</h2>
@@ -22,12 +29,15 @@ title: Events
       {% for event in events %}
         {% if event.date >= today %}
           <div class="mb-4">
+            <h4>
             {% if event.link %}
-              <h4><a href="{{ event.link }}">{{ event.title }}</a></h4>
+              <a href="{{ event.link }}">{{ event.title }}</a>
             {% else %}
-              <h4>{{ event.title }}</h4>
+              {{ event.title }}
             {% endif %}
-            <p class="text-muted">{{ event.date | date: "%B %d, %Y" }}</p>
+            {% if event.who %} <span class="who">{{ event.who }}</span>{% endif %}
+            </h4>
+            <p class="text-muted">{{ event.time }}  {{ event.date | date: "%B %d, %Y" }} </p>
             <div class="markdown-content">
               {{ event.description | markdownify }}
             </div>
@@ -43,12 +53,15 @@ title: Events
       {% for event in events %}
         {% if event.date < today %}
           <div class="mb-4">
+            <h4>
             {% if event.link %}
-              <h4><a href="{{ event.link }}">{{ event.title }}</a></h4>
+              <a href="{{ event.link }}">{{ event.title }}</a>
             {% else %}
-              <h4>{{ event.title }}</h4>
+              {{ event.title }}
             {% endif %}
-            <p class="text-muted">{{ event.date | date: "%B %d, %Y" }}</p>
+            {% if event.who %} <span class="who">{{ event.who }}</span>{% endif %}
+            </h4>
+            <p class="text-muted">{{ event.time }}  {{ event.date | date: "%B %d, %Y" }} </p>
             <div class="markdown-content">
               {{ event.description | markdownify }}
             </div>

@@ -13,6 +13,7 @@
 
 - title: "March 2025 Workshop: AI Agents for Work"
   date: "2025-03-12"
+  time: 12PM
   link: "https://daplab.cs.columbia.edu/workshop/index.html"
   description: >
     On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business School. 
@@ -26,8 +27,10 @@
     from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) 
     who leads AI at Celonis, and more.
 
-- title: "Efficient Fine-Tuning and Compression of Large Language Models: Towards Low-bit and Ultra-Low Parameter Solutions -- Jiajun Zhou"
+- title: "Efficient Fine-Tuning and Compression of Large Language Models: Towards Low-bit and Ultra-Low Parameter Solutions"
+  who: "Jiajun Zhou"
   date: "2025-07-07"
+  time: 12PM
   description: >
     Efficient fine-tuning of Large Language Models (LLMs) is crucial due to their substantial memory
     and computational demands. This seminar discusses recent advancements in techniques aimed at 
@@ -39,6 +42,8 @@
     significantly reducing memory requirements without compromising performance. Finally, the 
     discussion will cover recent progress and future directions for achieving efficient deployment 
     of LLMs in real-world applications.  
+  
+
 
     Jiajun Zhou is currently a Ph.D. student in the Department of Electrical and Electronic 
     Engineering at the University of Hong Kong (HKU), supervised by Prof. Ngai Wong, and a visiting 
@@ -50,8 +55,10 @@
     optimization, and tensor decomposition. He has published extensively in AI and hardware 
     acceleration venues, including NAACL, IEEE FCCM, and IEEE TCAD.
 
-- title: "Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond -- Yusen Zhang"
+- title: "Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond"
+  who: "Yusen Zhang"
   date: "2025-07-10"
+  time: 12PM
   description: >
     Autonomous agents powered by large language models (LLMs) are emerging as powerful tools for a 
     wide range of tasks. However, a single agent often faces performance ceilings, especially when 
@@ -67,25 +74,35 @@
     long-term vision of building Agent Societies: a human-centric society consisting of scalable, 
     trustworthy, and collaborative intelligent agents and humans.
 
+
     Yusen Zhang is a fourth-year CS PhD student at Penn State University, advised by Dr. Rui Zhang. 
     He has done industry research internships at Amazon, Microsoft, and Google. He also worked 
     closely with Dr. Dragomir Radev. He received his master's degree from Emory University, 
     advised by Dr. Jinho D. Choi. 
 
-- title: "The Road to High-Quality LLM Inference Services: System, Data, and Context -- Yizheng Jiao"
+- title: "The Road to High-Quality LLM Inference Services: System, Data, and Context"
+  who: "Yizheng Jiao" 
   date: "2025-07-17"
+  time: 12PM
   description: >
     This talk is about sharing the experience of building enterprise LLM inference services including
-    (1) high-level principles of increasing performance and saving costs
-    (2) a data selection algorithm to finetune LLM to increase the accuracy of domain-specific questions
-    (3) a method to enhance users' prompt with domain-specific  knowledge bases.
+
+    1. high-level principles of increasing performance and saving costs
+
+    2. a data selection algorithm to finetune LLM to increase the accuracy of domain-specific questions
+
+    3. a method to enhance users' prompt with domain-specific  knowledge bases.
+  
+
 
     Yizheng Jiao graduated from UNC Chapel Hill with a doctoral degree in 2022. He joined Bytedance 
     after graduation and am doing research on LLM systems. His goal is to build efficient and 
     accurate LLM services with experience includes LLM inference systems, data selection for LLM 
     finetuning, and prompt optimization.
 
-- title: "From Serving LLMs to Serving Agents on the Cloud -- Xiaozhe Yao"
+- title: "From Serving LLMs to Serving Agents on the Cloud"
+  who: Xiaozhe Yao
+  time: 12PM
   date: "2025-07-24"
   description: >
     In this talk, I will discuss key challenges in building agentic AI systems in the cloud. 
@@ -95,6 +112,7 @@
     By co-designing the serving system and compression algorithm, DeltaZip achieves a 2x to 12x 
     throughput improvement over state-of-the-art systems. In addition to this project, I will share 
     some ongoing challenges we are tackling in this space.
+
 
     Xiaozhe Yao is a third-year doctoral student at Systems Group, Department of Computer Science, 
     ETH Zurich advised by Prof. Dr. Ana Klimović. His research explores the complex and fundamental 

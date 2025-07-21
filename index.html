@@ -55,10 +55,12 @@ layout: default
               <li class="mb-3">
                 <small>{{ event.date }}</small><br>
                 {% if event.link %}
-                  <a href="{{ event.link }}"><strong>{{ event.title }}</strong></a>
+                  <a href="{{ event.link }}"><strong>{{ event.title }}</strong></a> 
                 {% else %}
                   <strong>{{ event.title }}</strong>
                 {% endif %}
+                {% if event.who %}  <span class="who">{{ event.who }}</span>{% endif %}
+
                 {{ event.description | markdownify | truncate: 100 }}
               </li>
               {% endfor %}
