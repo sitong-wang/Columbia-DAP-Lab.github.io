@@ -19,6 +19,29 @@
   <meta property="og:image" content="/daplab_logo.png">
   <meta property="og:url" content="https://daplab.cs.columbia.edu">
   <meta property="og:type" content="website">
+  {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DAPLab",
+      "description": "DAPLab at Columbia University advances research on agent-based automation across systems, AI, HCI, and operations research. We make automation more accountable, reliable, and efficient.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York, New York",
+        "postalCode": "10027",
+        "streetAddress": "500 West 120 Street, Room 450"
+      },
+      "url": "https://daplab.cs.columbia.edu",
+      "logo": "https://daplab.cs.columbia.edu/daplab_logo.png",
+      "email": "ewu@cs.columbia.edu",
+      "sameAs": [
+        "https://dap.cs.columbia.edu",
+        "https://Columbia-DAP-Lab.github.io"
+      ]
+    }
+    </script>
+  {% endif %}
 </head>
 
 
