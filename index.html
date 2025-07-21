@@ -25,12 +25,12 @@ layout: default
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
         <div class="card h-100">
           <div class="card-header bg-light bg-gradient text-dark border-bottom-0">
             <h4 class="mb-0">News & Education</h4>
           </div>
-          <div class="card-body p-3">
+          <div class="card-body p-4">
             {% for item in site.data.news %}
               <div class="mb-3">
                 <h5>{{ item.title | markdownify }}</h5>
@@ -41,7 +41,7 @@ layout: default
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
         <div class="card h-100">
           <div class="card-header bg-light bg-gradient text-dark border-bottom-0">
             <h4 class="mb-0">Events</h4>
@@ -70,7 +70,7 @@ layout: default
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
         <div class="card h-100">
           <div class="card-header bg-light bg-gradient text-dark border-bottom-0">
             <h4 class="mb-0">Publications</h4>
