@@ -1,3 +1,15 @@
+# This file stores important information that needs to be emphasized and displayed only on the homepage. 
+# Considering the limited space on the homepage, please add content with caution. 
+# If the content is no longer relevant, please consider moving it to the "events" category.
+#
+# Each event data entry should include the following information:
+#
+# - title: >
+#     Multi-line title in Markdown format
+#   content: >
+#     Multi-line detailed information in Markdown format
+#
+    
 - title: >
     Fall 2025 DAPLab Lunch Seminar
   content: >

@@ -1,11 +1,12 @@
 # The following are required
 #
-# - authors: eugene wu, super man
+# - title: Title of the paper
+#   authors: eugene wu, super man
 #   conf: SIGMOD 2016
-#   tags:
-#   - vis
-#   title: Title of the paper
+#   pub_date: "YYYY-MM-DD"  # Only the year and month will be displayed, but you need to provide complete information for sorting purposes.
 #   url: url to the paper
+#   tags:
+#     - vis
 #
 # The following are optional
 #
