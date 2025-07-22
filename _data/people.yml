@@ -173,6 +173,15 @@
   image: /files/images/avatar/yuhang_wu.JPG
   category: Student
 
+- name: Jiaxiang Jerry Liu
+  image: /files/images/avatar/jerryliu.png
+  category: Student
+
+- name: Haonan Peter Wang
+  image: /files/images/avatar/banana_hi.png
+  category: Student
+
+
 - name: Jiakai Xu
   homepage: https://alex-xjk.github.io/
   image: /files/images/avatar/jiakai_xu.jpg
