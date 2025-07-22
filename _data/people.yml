@@ -174,12 +174,37 @@
   category: Student
 
 - name: Jiaxiang Jerry Liu
-  image: /files/images/avatar/jerryliu.png
+  image: /files/images/avatar/jerryliu.jpeg
+  homepage: https://jerrrrryl.github.io/
   category: Student
 
 - name: Haonan Peter Wang
+  homepage: https://www.linkedin.com/in/haonan-wang-3a5955237/
   image: /files/images/avatar/banana_hi.png
   category: Student
+
+- name: Haneen Mohammed
+  homepage: https://www.linkedin.com/in/haneenmohammed/
+  image: /files/images/avatar/haneenmohammed.jpeg
+  category: Student
+
+- name: Reya Vir
+  homepage: https://www.linkedin.com/in/reyavir/
+  image: /files/images/avatar/reyavir.avif
+  category: Student
+
+
+- name: Chenxi Huang
+  homepage: https://chenxi-huang.com/
+  image: /files/images/avatar/chenxihuang.jpeg
+  category: Student
+
+
+- name: Elaine Ang
+  homepage: https://www.linkedin.com/in/elaine-ang-57077694/
+  image: /files/images/avatar/elaineang.jpeg
+  category: Student
+
 
 
 - name: Jiakai Xu
