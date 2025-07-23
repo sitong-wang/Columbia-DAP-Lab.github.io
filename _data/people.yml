@@ -174,38 +174,34 @@
   category: Student
 
 - name: Jiaxiang Jerry Liu
-  image: /files/images/avatar/jerryliu.jpeg
   homepage: https://jerrrrryl.github.io/
+  image: /files/images/avatar/jiaxiang_liu.jpeg
   category: Student
 
 - name: Haonan Peter Wang
   homepage: https://www.linkedin.com/in/haonan-wang-3a5955237/
-  image: /files/images/avatar/banana_hi.png
+  image: /files/images/avatar/haonan_wang.png
   category: Student
 
 - name: Haneen Mohammed
   homepage: https://www.linkedin.com/in/haneenmohammed/
-  image: /files/images/avatar/haneenmohammed.jpeg
+  image: /files/images/avatar/haneen_mohammed.jpeg
   category: Student
 
 - name: Reya Vir
   homepage: https://www.linkedin.com/in/reyavir/
-  image: /files/images/avatar/reyavir.avif
+  image: /files/images/avatar/reya_vir.avif
   category: Student
-
 
 - name: Chenxi Huang
   homepage: https://chenxi-huang.com/
-  image: /files/images/avatar/chenxihuang.jpeg
+  image: /files/images/avatar/chenxi_huang.jpeg
   category: Student
-
 
 - name: Elaine Ang
   homepage: https://www.linkedin.com/in/elaine-ang-57077694/
-  image: /files/images/avatar/elaineang.jpeg
+  image: /files/images/avatar/elaine_ang.jpeg
   category: Student
-
-
 
 - name: Jiakai Xu
   homepage: https://alex-xjk.github.io/
@@ -219,7 +215,7 @@
 
 - name: Yunan Lu
   homepage: https://www.linkedin.com/in/luyunan/
-  image: /files/images/avatar/yunanlu.jpg
+  image: /files/images/avatar/yunan_lu.jpg
   category: Student
 
 - name: Charlie Summers
@@ -234,5 +230,5 @@
 
 - name: Vivian Liu
   homepage: https://vivian-liu.com/
-  image: /files/images/avatar/vivianliu_profile.png
+  image: /files/images/avatar/vivian_liu.png
   category: Student
