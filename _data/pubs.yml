@@ -21,7 +21,12 @@
 #
 # Main tags are
 #
-#   system, whitepaper, hci, benchmark
+#   ai (agent intelligence)
+#   sys (agent ready systems)
+#   hac (human agent collaboration)
+#   automation (Automation)
+#   bench (Benchmark)
+#   whitepaper
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 
@@ -34,6 +39,7 @@
   tags:
     - system
     - whitepaper
+    - sys
 
 - title: 'Suna: Scalable Causal Confounder Discovery over Relational Data'
   url: "https://github.com/cudbg/Suna/blob/main/Suna_tech_report.pdf"
@@ -45,6 +51,8 @@
   tags:
     - db
     - system
+    - ai
+    - sys
 
 - title: "ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning"
   authors: Xiao Yu, Baolin Peng, Vineeth Vajipey, Hao Cheng, Michel Galley, Jianfeng Gao, Zhou Yu
@@ -53,6 +61,7 @@
   url: https://agent-e3.github.io/ExACT/
   tags:
     - system
+    - ai
 
 - title: "Performance of LLMs on Stochastic Modeling Operations Research Problems: From Theory to Practice."
   authors: Akshit Kumar, Tianyi Peng, Yuhang Wu, Assaf Zeevi
@@ -70,6 +79,7 @@
   tags:
     - system
     - hci
+    - hac
 
 - title: "AnimationAgents: A Multi-Modal Team of Agents for Generating, Debugging, and Human Editing of Animation Code"
   authors: Vivian Liu, Rubaiat Habib Kazi, Li-Yi Wei, Matthew Fisher, Timothy Langlois, Seth Walker, Lydia B. Chilton
@@ -79,6 +89,7 @@
   tags:
     - system
     - hci
+    - hac
 
 - title: "Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs"
   authors: Karthik Sreedhar, Alice Cai, Jenny Ma, Jeffrey V. Nickerson, Lydia B. Chilton
@@ -87,6 +98,8 @@
   url: https://arxiv.org/abs/2502.12504
   tags:
     - agent
+    - ai
+    - hac
 
 - title: "ACE: A LLM Agent-based Negotiation Coaching System"
   authors: Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, Zhou Yu
@@ -96,6 +109,7 @@
   tags:
     - system
     - hci
+    - hac
 
 - title: Steering Semantic Data Processing With DocWrangler
   authors: Shreya Shankar, Bhavya Chopra, Mawil Hasan, Stephen Lee, Bjoern Hartmann, Joseph Hellerstein, Aditya Parameswaran, Eugene Wu
@@ -104,7 +118,9 @@
   pub_date: "2025-04-20"
   tags:
     - hci
-    - system 
+    - system
+    - automation
+    - sys
 
 - title: 'DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing'
   url: https://arxiv.org/abs/2410.12189
@@ -113,6 +129,8 @@
   pub_date: "2025-04-01"
   tags:
     - system
+    - automation
+    - sys
 
 - title: Towards a Framework for Optimizing Hierarchical Text Segmentation using LLMs
   authors: Lampros Flokas, Jeffrey Cao, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
@@ -122,6 +140,8 @@
   url: https://www.dropbox.com/scl/fi/cb9y2a95ihjh9kap36w93/celonis-deem25-hierseg-submitted.pdf?rlkey=k9op1ydiizm0bxsrfbbr3f5h4&dl=0
   tags:
     - system
+    - ai
+    - automation
 
 - title: "Prompt Editor: A Taxonomy-driven System for Guided LLM Prompt Development in Enterprise Settings"
   authors: Jeffery Cao, Lampros Flokas, Yujian Xu, Eugene Wu, Xu Chu, Cong Yu
@@ -132,6 +152,8 @@
   comment: Best Industry Demo Award!
   tags:
     - system
+    - automation
+    - hac
 
 - title: Data Cleaning Using Large Language Models
   authors: Shuo Zhang, Zezhou Huang, Eugene Wu
@@ -141,6 +163,7 @@
   short: true
   tags:
     - system
+    - automation
 
 - title: "Alexpaca: Learning Factual Clarification Question Generation Without Examples"
   authors: Matthew Toles, Yukun Huang, Zhou Yu, Luis Gravano
@@ -157,3 +180,4 @@
   pub_date: "2025-03-17"
   tags: 
     - ai
+    - hac

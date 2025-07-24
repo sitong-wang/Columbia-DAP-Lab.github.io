@@ -22,15 +22,21 @@
 
   $(".tagbtn").on('click', function() {
     let tag = $(this).data("tag");
+    let content = $(this).text()
     toggletag(tag);
     $(".tagbtn")
       .removeClass("tagbtn-selected")
+      .removeClass("btn-primary")
       .removeClass("btn-outline-secondary")
       .addClass("btn-outline-secondary")
     $(this)
       .removeClass("btn-outline-secondary")
+      .addClass("btn-primary")
       .addClass("tagbtn-selected")
-    $("#pubs-title").text(`${tag} Publications`)
+    if (content == "All")
+      $("#pubs-title").text(`${content} Publications`)
+    else
+      $("#pubs-title").text(content)
 
     console.log(this)
   })
