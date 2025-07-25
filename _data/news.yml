@@ -11,6 +11,12 @@
 #
     
 - title: >
+    Fall 2025 [AI Entrepreneurship Series](./entrepreneurship)
+  content: >
+    The DAPLab is organizing a series of events that bring together Columbia students, faculty, and industry partners to discuss the process of transitioning lessons from research and the classroom into products and value.
+
+
+- title: >
     Fall 2025 DAPLab Lunch Seminar
   content: >
     The DAPlab's tuesday noon seminar invites speakers that can share cutting-edge agent-systems 
@@ -23,9 +29,9 @@
     with a focus on security issues related to AI Agents.
 
 - title: >
-    October 2025 Workshop
+    [October 2025 Workshop](./workshop/2025-10)
   content: >
-    We plan to run the second iteration of our AI Agents for Work workshop in October (date TBA). 
+    We plan to run the second iteration of our AI Agents for Work workshop in October 2025. 
     The first day will be a public event with cutting edge research, war stories from deployments,
     and engaging panels. The second day will be private for DAPLab industry partners to deeply 
     engage with the students, faculty, and other partners.
