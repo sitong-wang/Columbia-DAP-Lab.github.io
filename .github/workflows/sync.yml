@@ -24,11 +24,13 @@ jobs:
         run: pip install -r requirements.txt
         working-directory: scripts
 
-      - name: Prepare credentials
-        run: echo "${{ secrets.GSHEET_CRED }}" > service_creds.json
-        working-directory: scripts
+      # - name: Prepare credentials
+      #   run: echo "${{ secrets.GSHEET_CRED }}" > service_creds.json
+      #   working-directory: scripts
 
       - name: Run sync script
+        env:
+          GOOGLE_SHEET_CREDENTIALS: ${{ secrets.GSHEET_CRED }}
         run: python sync_events.py
         working-directory: scripts
 

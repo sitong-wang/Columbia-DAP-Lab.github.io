@@ -1,6 +1,7 @@
 import logging
 import os
 import yaml
+import json
 import shutil
 import datetime
 import gspread
@@ -29,8 +30,10 @@ UNIQUE_KEY = "title"
 
 # === Authenticate & Load Google Sheet ===
 def load_events_from_google_sheet():
+    creds_json = os.environ["GSHEET_CREDENTIALS_JSON"]
+    creds_dict = json.loads(creds_json)
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
     client = gspread.authorize(creds)
 
     sheet = client.open(SPREADSHEET_NAME).worksheet(SHEET_NAME)
