@@ -4,9 +4,9 @@ name: Deploy GitHub Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * 2,4"  # Tuesdays and Thursdays at 10 AM New York time
+    - cron: "0 14 * * *"  # Every day at 10 AM New York time
   push:
-    branches: [ "main" ]  # Trigger on pushes to main branch
+    branches: ["main"]  # Trigger on non-action pushes to main branch
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
