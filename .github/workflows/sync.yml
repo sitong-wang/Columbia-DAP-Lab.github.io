@@ -7,6 +7,10 @@ on:
   push:
     branches: [ "auto-sync" ]  # For debugging purposes
 
+permissions:
+  contents: write
+  id-token: write
+
 jobs:
   sync-events:
     runs-on: ubuntu-latest
