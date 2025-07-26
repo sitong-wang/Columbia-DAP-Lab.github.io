@@ -5,6 +5,3 @@ url: "https://daplab.cs.columbia.edu"
 theme: minima # Default theme, or replace with your theme
 plugins:
   - jekyll-sitemap
-exclude:
-  - .venv
-  - scripts
