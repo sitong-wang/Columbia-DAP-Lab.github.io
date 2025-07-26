@@ -1,5 +1,5 @@
 - title: 'March 2025 Workshop: AI Agents for Work'
-  date: "2025-03-12"
+  date: '2025-03-12'
   time: 12PM
   link: https://daplab.cs.columbia.edu/workshop/index.html
   description: >
@@ -17,7 +17,7 @@
 - title: 'Efficient Fine-Tuning and Compression of Large Language Models: Towards
     Low-bit and Ultra-Low Parameter Solutions'
   who: Jiajun Zhou
-  date: "2025-07-07"
+  date: '2025-07-07'
   time: 12PM
   description: "Efficient fine-tuning of Large Language Models (LLMs) is crucial due\
     \ to their substantial memory and computational demands. This seminar discusses\
@@ -43,7 +43,7 @@
     \ IEEE FCCM, and IEEE TCAD.\n"
 - title: 'Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond'
   who: Yusen Zhang
-  date: "2025-07-10"
+  date: '2025-07-10'
   time: 12PM
   description: "Autonomous agents powered by large language models (LLMs) are emerging\
     \ as powerful tools for a  wide range of tasks. However, a single agent often\
@@ -66,7 +66,7 @@
     \ master's degree from Emory University,  advised by Dr. Jinho D. Choi. \n"
 - title: 'The Road to High-Quality LLM Inference Services: System, Data, and Context'
   who: Yizheng Jiao
-  date: "2025-07-17"
+  date: '2025-07-17'
   time: 12PM
   description: >
     This talk is about sharing the experience of building enterprise LLM inference
@@ -86,7 +86,7 @@
     is to build efficient and  accurate LLM services with experience includes LLM
     inference systems, data selection for LLM  finetuning, and prompt optimization.
 - title: From Serving LLMs to Serving Agents on the Cloud
-  date: "2025-07-24"
+  date: '2025-07-24'
   time: 12PM
   who: Xiaozhe Yao
   link: https://arxiv.org/abs/2312.05215
