@@ -117,7 +117,4 @@ def main():
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    with open(CREDENTIALS_FILE, 'r') as f:
-        print(f"Using credentials from {CREDENTIALS_FILE}")
-        print(f.read())
     main()
