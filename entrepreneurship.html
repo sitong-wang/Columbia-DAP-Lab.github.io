@@ -27,6 +27,8 @@ title: Columbia Engineering AI Entrepreneurship Series
     <p> <span style="font-weight: bold;">When:</span> Bi-weekly Tuesdays at 6-8PM starting September 9th</p>
 
     <p> <span style="font-weight: bold;">Where:</span> TBD </p>
+
+    <p> <span style="font-weight: bold;">Hosts:</span> <a href="https://tianyipeng.github.io">Tianyi Peng</a>, <a href="https://eugenewu.net">Eugene Wu</a> </p>
   </div>
   </div>
 
@@ -36,12 +38,12 @@ title: Columbia Engineering AI Entrepreneurship Series
   <div class="col-md-1"></div>
   <div class="col-md-10">
 
-{% assign events = site.data.events | sort: "date" | reverse %}
+{% assign events = site.data.startups | sort: "date" %}
 {% assign today = 'now' | date: "%Y-%m-%d" %}
 <h2>Upcoming Events</h2>
 <div class="mb-5">
   {% for event in events %}
-    {% if event.type == "startup" and event.date >= today %}
+    {% if event.date >= today %}
       <div class="mb-4">
         <h4>
         {% if event.link %}
@@ -52,9 +54,11 @@ title: Columbia Engineering AI Entrepreneurship Series
         {% if event.who %} <span class="who">{{ event.who }}</span>{% endif %}
         </h4>
         <p class="text-muted">{{ event.time }}  {{ event.date | date: "%B %d, %Y" }} </p>
-        <div class="markdown-content">
-          {{ event.description | markdownify }}
-        </div>
+        {% unless event.description contains "tba" %}
+          <div class="markdown-content">
+            {{ event.description | markdownify }}
+          </div>
+        {% endunless %}
       </div>
     {% endif %}
   {% endfor %}
@@ -63,7 +67,7 @@ title: Columbia Engineering AI Entrepreneurship Series
 <h2>Past Events</h2>
 <div>
   {% for event in events %}
-    {% if event.type == "startup" and event.date < today %}
+    {% if event.date < today %}
       <div class="mb-4">
         <h4>
         {% if event.link %}
