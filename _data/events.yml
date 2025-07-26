@@ -89,20 +89,21 @@
   date: '2025-07-24'
   time: 12PM
   who: Xiaozhe Yao
-  link: https://arxiv.org/abs/2312.05215
-  description: "    In this talk, I will discuss key challenges in building agentic\
-    \ AI systems in the cloud. \n    I will highlight DeltaZip, our recent work on\
-    \ efficiently deploying multiple fine-tuned models \n    -- a step we believe\
-    \ is essential toward enabling future AI systems. The core insight behind \n \
-    \   DeltaZip is that fine-tuning often introduces small-magnitude changes to a\
-    \ pre-trained model. \n    By co-designing the serving system and compression\
-    \ algorithm, DeltaZip achieves a 2x to 12x \n    throughput improvement over state-of-the-art\
-    \ systems. In addition to this project, I will share \n    some ongoing challenges\
-    \ we are tackling in this space.\n\n\n    Xiaozhe Yao is a third-year doctoral\
-    \ student at Systems Group, Department of Computer Science, \n    ETH Zurich advised\
-    \ by Prof. Dr. Ana Klimović. His research explores the complex and fundamental\
-    \ \n    tensions between three pillars: from optimizing systems for efficient\
-    \ ML, to improving data \n    quality and organization for ML, to developing frameworks\
-    \ that bridge the gap between algorithms \n    and their practical deployment.\
-    \ Through this multi-faceted approach, his work aims to better \n    understand\
-    \ and build AI systems."
+  description: >-
+    In this talk, I will discuss key challenges in building agentic AI systems in
+    the cloud. I will highlight DeltaZip, our recent work on efficiently deploying
+    multiple fine-tuned models -- a step we believe is essential toward enabling future
+    AI systems. The core insight behind DeltaZip is that fine-tuning often introduces
+    small-magnitude changes to a pre-trained model. By co-designing the serving system
+    and compression algorithm, DeltaZip achieves a 2x to 12x throughput improvement
+    over state-of-the-art systems. In addition to this project, I will share some
+    ongoing challenges we are tackling in this space.
+
+
+    Xiaozhe Yao is a third-year doctoral student at Systems Group, Department of Computer
+    Science, ETH Zurich advised by Prof. Dr. Ana Klimović. His research explores the
+    complex and fundamental tensions between three pillars: from optimizing systems
+    for efficient ML, to improving data quality and organization for ML, to developing
+    frameworks that bridge the gap between algorithms and their practical deployment.
+    Through this multi-faceted approach, his work aims to better understand and build
+    AI systems.
