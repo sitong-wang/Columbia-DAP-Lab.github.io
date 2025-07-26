@@ -1,122 +1,109 @@
-# This file stores “event” data of DAPLab. 
-# The first few events sorted by time will be displayed in thumbnail form on the homepage, 
-# and all detailed content will be displayed on the `/events` page, divided into Past and Upcoming based on deployment time. 
-#
-# Each event data entry should include the following information:
-#
-# - title:  ""
-#   date:   "YYYY-MM-DD"
-#   link:   "event link"  # optional
-#   description: >
-#     Multi-line detailed description in Markdown format
-#
-
-- title: "March 2025 Workshop: AI Agents for Work"
-  date: "2025-03-12"
+- title: 'March 2025 Workshop: AI Agents for Work'
+  date: '2025-03-12'
   time: 12PM
-  link: "https://daplab.cs.columbia.edu/workshop/index.html"
+  link: https://daplab.cs.columbia.edu/workshop/index.html
   description: >
-    On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business School. 
-    The one-day workshop to brought together over 200 industry leaders, Columbia faculty and students, 
-    and technologists who are interested in the concept of AI agents.
-    
-    Speakers and panelists come from enterprises that are deploying agentic solutions, technologists 
-    and infrastructure leaders, and researchers at leading AI labs as well as Columbia. 
-    These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/) from OpenAI who led 
-    their chain-of-thought and agentic work, Danielle Perszyk from Amazon AGI, Jonathan Frankle 
-    from Databricks, Deepak Dastrala from Intellect, [Cong Yu](https://www.linkedin.com/in/congyu) 
-    who leads AI at Celonis, and more.
+    On March 12, 2025, DAPLab ran the first annual workshop at the Columbia Business
+    School.  The one-day workshop to brought together over 200 industry leaders, Columbia
+    faculty and students,  and technologists who are interested in the concept of
+    AI agents.
 
-- title: "Efficient Fine-Tuning and Compression of Large Language Models: Towards Low-bit and Ultra-Low Parameter Solutions"
-  who: "Jiajun Zhou"
-  date: "2025-07-07"
+    Speakers and panelists come from enterprises that are deploying agentic solutions,
+    technologists  and infrastructure leaders, and researchers at leading AI labs
+    as well as Columbia.  These include [Jason Wei](https://www.linkedin.com/in/jason-wei-5a7323b0/)
+    from OpenAI who led  their chain-of-thought and agentic work, Danielle Perszyk
+    from Amazon AGI, Jonathan Frankle  from Databricks, Deepak Dastrala from Intellect,
+    [Cong Yu](https://www.linkedin.com/in/congyu)  who leads AI at Celonis, and more.
+- title: 'Efficient Fine-Tuning and Compression of Large Language Models: Towards
+    Low-bit and Ultra-Low Parameter Solutions'
+  who: Jiajun Zhou
+  date: '2025-07-07'
   time: 12PM
-  description: >
-    Efficient fine-tuning of Large Language Models (LLMs) is crucial due to their substantial memory
-    and computational demands. This seminar discusses recent advancements in techniques aimed at 
-    significantly reducing these costs, enabling effective adaptation of large-scale models even on
-    resource-constrained hardware. The talk will begin with an overview of current challenges and
-    mainstream approaches to compressing and fine-tuning LLMs, highlighting trade-offs between 
-    model size, accuracy, and efficiency. Subsequently, the speaker will introduce novel approaches 
-    that enable fine-tuning at extremely low precision and ultra-low parameter regimes, 
-    significantly reducing memory requirements without compromising performance. Finally, the 
-    discussion will cover recent progress and future directions for achieving efficient deployment 
-    of LLMs in real-world applications.  
-  
-
-
-    Jiajun Zhou is currently a Ph.D. student in the Department of Electrical and Electronic 
-    Engineering at the University of Hong Kong (HKU), supervised by Prof. Ngai Wong, and a visiting 
-    scholar at the University of California, Santa Barbara (UCSB). He received his Master's degree 
-    in IC Design Engineering from the Hong Kong University of Science and Technology (HKUST) in 2019. 
-    He previously worked as a Research Assistant at the Chinese University of Hong Kong (CUHK). 
-    His research primarily focuses on developing innovative frameworks for efficient training and 
-    inference of Large Language Models (LLMs), particularly through quantization, low-bit 
-    optimization, and tensor decomposition. He has published extensively in AI and hardware 
-    acceleration venues, including NAACL, IEEE FCCM, and IEEE TCAD.
-
-- title: "Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond"
-  who: "Yusen Zhang"
-  date: "2025-07-10"
+  description: "Efficient fine-tuning of Large Language Models (LLMs) is crucial due\
+    \ to their substantial memory and computational demands. This seminar discusses\
+    \ recent advancements in techniques aimed at  significantly reducing these costs,\
+    \ enabling effective adaptation of large-scale models even on resource-constrained\
+    \ hardware. The talk will begin with an overview of current challenges and mainstream\
+    \ approaches to compressing and fine-tuning LLMs, highlighting trade-offs between\
+    \  model size, accuracy, and efficiency. Subsequently, the speaker will introduce\
+    \ novel approaches  that enable fine-tuning at extremely low precision and ultra-low\
+    \ parameter regimes,  significantly reducing memory requirements without compromising\
+    \ performance. Finally, the  discussion will cover recent progress and future\
+    \ directions for achieving efficient deployment  of LLMs in real-world applications.\
+    \  \n\n\nJiajun Zhou is currently a Ph.D. student in the Department of Electrical\
+    \ and Electronic  Engineering at the University of Hong Kong (HKU), supervised\
+    \ by Prof. Ngai Wong, and a visiting  scholar at the University of California,\
+    \ Santa Barbara (UCSB). He received his Master's degree  in IC Design Engineering\
+    \ from the Hong Kong University of Science and Technology (HKUST) in 2019.  He\
+    \ previously worked as a Research Assistant at the Chinese University of Hong\
+    \ Kong (CUHK).  His research primarily focuses on developing innovative frameworks\
+    \ for efficient training and  inference of Large Language Models (LLMs), particularly\
+    \ through quantization, low-bit  optimization, and tensor decomposition. He has\
+    \ published extensively in AI and hardware  acceleration venues, including NAACL,\
+    \ IEEE FCCM, and IEEE TCAD.\n"
+- title: 'Multi-Agent Systems in the Era of LLMs: Testbeds, Applications, and Beyond'
+  who: Yusen Zhang
+  date: '2025-07-10'
   time: 12PM
-  description: >
-    Autonomous agents powered by large language models (LLMs) are emerging as powerful tools for a 
-    wide range of tasks. However, a single agent often faces performance ceilings, especially when 
-    tackling complex workflows like running an AI company or AI4Research, and is inherently limited 
-    in scenarios that involve multiple instances, such as simulations, embodied agents, and digital 
-    twins. In this talk, I will present Multi-Agent Large Language Models (MA-LLMs), a promising 
-    paradigm designed to overcome the fundamental limitations of single-agent systems. I will begin 
-    by highlighting three threads of my previous work that lay the groundwork for MA-LLMs. Next, 
-    I'll introduce our research on fairness summarization, which demonstrates challenges that a 
-    single agent struggles to handle well. Then, I will present how agents can collaborate in a 
-    chain-of-agent manner to solve difficult tasks, such as long-document summarization and 
-    multi-step reasoning. Finally, I will reflect on current limitations in MA-LLMs and outline my 
-    long-term vision of building Agent Societies: a human-centric society consisting of scalable, 
-    trustworthy, and collaborative intelligent agents and humans.
-
-
-    Yusen Zhang is a fourth-year CS PhD student at Penn State University, advised by Dr. Rui Zhang. 
-    He has done industry research internships at Amazon, Microsoft, and Google. He also worked 
-    closely with Dr. Dragomir Radev. He received his master's degree from Emory University, 
-    advised by Dr. Jinho D. Choi. 
-
-- title: "The Road to High-Quality LLM Inference Services: System, Data, and Context"
-  who: "Yizheng Jiao" 
-  date: "2025-07-17"
+  description: "Autonomous agents powered by large language models (LLMs) are emerging\
+    \ as powerful tools for a  wide range of tasks. However, a single agent often\
+    \ faces performance ceilings, especially when  tackling complex workflows like\
+    \ running an AI company or AI4Research, and is inherently limited  in scenarios\
+    \ that involve multiple instances, such as simulations, embodied agents, and digital\
+    \  twins. In this talk, I will present Multi-Agent Large Language Models (MA-LLMs),\
+    \ a promising  paradigm designed to overcome the fundamental limitations of single-agent\
+    \ systems. I will begin  by highlighting three threads of my previous work that\
+    \ lay the groundwork for MA-LLMs. Next,  I'll introduce our research on fairness\
+    \ summarization, which demonstrates challenges that a  single agent struggles\
+    \ to handle well. Then, I will present how agents can collaborate in a  chain-of-agent\
+    \ manner to solve difficult tasks, such as long-document summarization and  multi-step\
+    \ reasoning. Finally, I will reflect on current limitations in MA-LLMs and outline\
+    \ my  long-term vision of building Agent Societies: a human-centric society consisting\
+    \ of scalable,  trustworthy, and collaborative intelligent agents and humans.\n\
+    \nYusen Zhang is a fourth-year CS PhD student at Penn State University, advised\
+    \ by Dr. Rui Zhang.  He has done industry research internships at Amazon, Microsoft,\
+    \ and Google. He also worked  closely with Dr. Dragomir Radev. He received his\
+    \ master's degree from Emory University,  advised by Dr. Jinho D. Choi. \n"
+- title: 'The Road to High-Quality LLM Inference Services: System, Data, and Context'
+  who: Yizheng Jiao
+  date: '2025-07-17'
   time: 12PM
   description: >
-    This talk is about sharing the experience of building enterprise LLM inference services including
+    This talk is about sharing the experience of building enterprise LLM inference
+    services including
 
     1. high-level principles of increasing performance and saving costs
 
-    2. a data selection algorithm to finetune LLM to increase the accuracy of domain-specific questions
+    2. a data selection algorithm to finetune LLM to increase the accuracy of domain-specific
+    questions
 
     3. a method to enhance users' prompt with domain-specific  knowledge bases.
-  
 
 
-    Yizheng Jiao graduated from UNC Chapel Hill with a doctoral degree in 2022. He joined Bytedance 
-    after graduation and am doing research on LLM systems. His goal is to build efficient and 
-    accurate LLM services with experience includes LLM inference systems, data selection for LLM 
-    finetuning, and prompt optimization.
 
-- title: "From Serving LLMs to Serving Agents on the Cloud"
-  who: Xiaozhe Yao
+    Yizheng Jiao graduated from UNC Chapel Hill with a doctoral degree in 2022. He
+    joined Bytedance  after graduation and am doing research on LLM systems. His goal
+    is to build efficient and  accurate LLM services with experience includes LLM
+    inference systems, data selection for LLM  finetuning, and prompt optimization.
+- title: From Serving LLMs to Serving Agents on the Cloud
+  date: '2025-07-24'
   time: 12PM
-  date: "2025-07-24"
-  description: >
-    In this talk, I will discuss key challenges in building agentic AI systems in the cloud. 
-    I will highlight DeltaZip, our recent work on efficiently deploying multiple fine-tuned models 
-    -- a step we believe is essential toward enabling future AI systems. The core insight behind 
-    DeltaZip is that fine-tuning often introduces small-magnitude changes to a pre-trained model. 
-    By co-designing the serving system and compression algorithm, DeltaZip achieves a 2x to 12x 
-    throughput improvement over state-of-the-art systems. In addition to this project, I will share 
-    some ongoing challenges we are tackling in this space.
+  who: Xiaozhe Yao
+  description: >-
+    In this talk, I will discuss key challenges in building agentic AI systems in
+    the cloud. I will highlight DeltaZip, our recent work on efficiently deploying
+    multiple fine-tuned models -- a step we believe is essential toward enabling future
+    AI systems. The core insight behind DeltaZip is that fine-tuning often introduces
+    small-magnitude changes to a pre-trained model. By co-designing the serving system
+    and compression algorithm, DeltaZip achieves a 2x to 12x throughput improvement
+    over state-of-the-art systems. In addition to this project, I will share some
+    ongoing challenges we are tackling in this space.
 
 
-    Xiaozhe Yao is a third-year doctoral student at Systems Group, Department of Computer Science, 
-    ETH Zurich advised by Prof. Dr. Ana Klimović. His research explores the complex and fundamental 
-    tensions between three pillars: from optimizing systems for efficient ML, to improving data 
-    quality and organization for ML, to developing frameworks that bridge the gap between algorithms 
-    and their practical deployment. Through this multi-faceted approach, his work aims to better 
-    understand and build AI systems.
+    Xiaozhe Yao is a third-year doctoral student at Systems Group, Department of Computer
+    Science, ETH Zurich advised by Prof. Dr. Ana Klimović. His research explores the
+    complex and fundamental tensions between three pillars: from optimizing systems
+    for efficient ML, to improving data quality and organization for ML, to developing
+    frameworks that bridge the gap between algorithms and their practical deployment.
+    Through this multi-faceted approach, his work aims to better understand and build
+    AI systems.
