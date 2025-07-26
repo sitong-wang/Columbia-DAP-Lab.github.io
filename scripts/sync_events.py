@@ -30,7 +30,7 @@ UNIQUE_KEY = "title"
 
 # === Authenticate & Load Google Sheet ===
 def load_events_from_google_sheet():
-    creds_json = os.environ["GSHEET_CREDENTIALS_JSON"]
+    creds_json = os.environ["GOOGLE_SHEET_CREDENTIALS"]
     creds_dict = json.loads(creds_json)
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
