@@ -88,6 +88,7 @@ def merge_events(existing_events, sheet_events):
     merged = {e[UNIQUE_KEY]: e for e in existing_events}
     for e in sheet_events:
         merged[e[UNIQUE_KEY]] = e
+    logger.info(f"Merged total {len(merged)} events")
     return list(merged.values())
 
 def events_changed(old, new):
