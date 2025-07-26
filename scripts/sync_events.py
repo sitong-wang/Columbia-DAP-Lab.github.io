@@ -21,7 +21,7 @@ yaml.add_representer(FoldedStr, folded_str_representer)
 # === Configuration ===
 YAML_FILE = "../_data/events.yml"
 BACKUP_DIR = "../_data/"
-CREDENTIALS_FILE = "9ffc1004a2e9.json"
+CREDENTIALS_FILE = "service_creds.json"
 SPREADSHEET_NAME = "Fall 2025 DAP Lab Seminar"
 SHEET_NAME = "website"
 UNIQUE_KEY = "title"
