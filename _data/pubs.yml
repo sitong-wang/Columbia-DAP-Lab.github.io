@@ -26,10 +26,46 @@
 #   hac (human agent collaboration)
 #   automation (Automation)
 #   bench (Benchmark)
+#   digi-twin (Digital Twin)
 #   whitepaper
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 
+
+- title: "Twin-2K-500: A dataset for building digital twins of over 2,000 people based on their answers to over 500 questions"
+  authors: Olivier Toubia, George Z. Gui, Tianyi Peng, Daniel J. Merlau, Ang Li, and Haozhe Chen
+  conf: Marketing Science
+  pub_date: "2025-05-23"
+  url: https://arxiv.org/abs/2505.17479
+  tags: 
+    - digi-twin
+    - ai
+
+- title: "Throughput-Optimal Scheduling Algorithms for LLM Inference and AI Agents"
+  authors: Yueying Li, Jim Dai, Tianyi Peng
+  conf: Arxiv 2025
+  pub_date: "2025-04-10"
+  url: https://arxiv.org/abs/2504.07347
+  tags:
+    - ai
+    - sys
+
+- title: "How Well do LLMs Compress their Own Chain-of-Thought? A Token Complexity Approach"
+  authors: Ayeong Lee, Ethan Che, Tianyi Peng
+  conf: ICML, Efficient Systems for Foundation Models Workshop 2025
+  pub_date: "2025-03-03"
+  url: https://arxiv.org/abs/2503.01141
+  tags:
+    - ai
+
+- title: "LLM Generated Persona is a Promise with a Catch"
+  authors: Ang Li, Haozhe Chen, Hongseok Namkoong, Tianyi Peng
+  conf: Arxiv 2025
+  pub_date: "2025-03-18"
+  url: https://arxiv.org/abs/2503.16527
+  tags:
+    - ai
+    - digi-twin
 
 - title: "Position Paper: A System-Centric Approach is Necessary for AI Agents"
   authors: Nikos Pagonas, Haonan Wang, Jiaxiang Liu, Tianle Zhou, Deepak Dastrala, Raman Jatkar, Anirudh Sivaraman, Zhou Yu, Kostis Kaffes, Eugene Wu
@@ -65,7 +101,7 @@
 
 - title: "Performance of LLMs on Stochastic Modeling Operations Research Problems: From Theory to Practice."
   authors: Akshit Kumar, Tianyi Peng, Yuhang Wu, Assaf Zeevi
-  conf: ArXiv 2025
+  conf: Winter Simulation Conference 2025
   pub_date: "2025-06-30"
   url: https://arxiv.org/abs/2506.23924
   tags:
