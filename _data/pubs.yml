@@ -137,6 +137,16 @@
     - ai
     - hac
 
+- title: "FeedQUAC: Quick Unobtrusive Agent-Generated Commentary"
+  authors: ao Long, Kendra Wannamaker, Jo Vermeulen, George Fitzmaurice, Justin Matejka
+  conf: arXiv 2025
+  pub_date: 
+  url: https://arxiv.org/abs/2504.16416
+  tags:
+    - agent
+    - ai
+    - hac
+
 - title: "ACE: A LLM Agent-based Negotiation Coaching System"
   authors: Ryan Shea, Aymen Kallala, Xin Lucy Liu, Michael W. Morris, Zhou Yu
   conf: EMNLP 2024
