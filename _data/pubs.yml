@@ -138,9 +138,9 @@
     - hac
 
 - title: "FeedQUAC: Quick Unobtrusive Agent-Generated Commentary"
-  authors: ao Long, Kendra Wannamaker, Jo Vermeulen, George Fitzmaurice, Justin Matejka
+  authors: Tao Long, Kendra Wannamaker, Jo Vermeulen, George Fitzmaurice, Justin Matejka
   conf: arXiv 2025
-  pub_date: 
+  pub_date: "2025-04-23"
   url: https://arxiv.org/abs/2504.16416
   tags:
     - agent
